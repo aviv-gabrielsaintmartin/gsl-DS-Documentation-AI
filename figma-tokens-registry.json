@@ -1,0 +1,17 @@
+{
+  "fileKey": "utQzIdpY7RaHMTmu068e5r",
+  "fileName": "0. GSL Foundations Library",
+  "categories": {
+    "Radius": {
+      "collection": "1 - Primitive",
+      "confluencePageId": "3424452716",
+      "tokens": [
+        { "name": "Radius/None", "key": "f4f46e6301fe8bb158e1d35f1fb314e8952c9d8b", "value": 0 },
+        { "name": "Radius/4", "key": "efc754c7546a2da77c11c02c237258adf0ba455e", "value": 4 },
+        { "name": "Radius/8", "key": "8bda4f1e08b45a1651366c92813e3c26e5fca972", "value": 8 },
+        { "name": "Radius/16", "key": "7b02828789d88fcb0f6f40c54deac21229f026c3", "value": 16 },
+        { "name": "Radius/Rounded", "key": "e80abfc6d65630ed45274dafe84ff67d1b392c09", "value": 10000 }
+      ]
+    }
+  }
+}

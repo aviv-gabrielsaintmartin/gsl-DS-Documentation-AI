@@ -1,0 +1,20 @@
+{
+  "tiers": {
+    "foundations": {
+      "name": "0. GSL Foundations Library",
+      "key": "utQzIdpY7RaHMTmu068e5r"
+    },
+    "components": {
+      "name": "2. GSL Components Library",
+      "key": "ABqcGx0cmJWozuJ8OoW6f2"
+    },
+    "patterns": {
+      "name": "3. GSL Patterns Library",
+      "key": "NYdrGXZIXplE3Teny5q9SP"
+    },
+    "experiences": {
+      "name": "4. GSL Experiences Library",
+      "key": "MDLCuT6rnVam3h5DhoQzuR"
+    }
+  }
+}

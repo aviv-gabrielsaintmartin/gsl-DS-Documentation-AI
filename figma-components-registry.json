@@ -2,37 +2,2067 @@
   "components": {
     "Accordion": {
       "key": "12bad17c5323ed7d55361e6e9a7d159dcd1179d5",
+      "nodeId": "11:136048",
+      "pattern": "Pattern 1",
+      "variantCount": 16,
       "auditedDate": "2026-08-11",
-      "status": "Clean"
-    },
-    "Avatar": {
-      "key": "dcc57df93537a70ccc49221904d31bac911fdcc8",
-      "auditedDate": "2026-08-11",
-      "status": "Clean"
+      "status": "Clean — verified live via Figma Desktop Bridge, no structural changes since last capture"
     },
     "Action Menu": {
       "key": "598c5fcb9e0f4d78a5de1d9806eb2f24505564a5",
-      "nodeId": "2305:32561",
       "pattern": "Pattern 2",
       "variantCount": 2,
       "auditedDate": "2026-08-11",
-      "status": "Clean"
+      "status": "Clean — verified live, matched existing spec exactly",
+      "nodeId": "2305:32561",
+      "exposedSubComponents": [
+        {
+          "exposedAs": [
+            "Button"
+          ],
+          "key": "39ec5df9e09ae20dd0935fd83a63131ed08e53b6",
+          "name": ".button_type",
+          "properties": {
+            "Type": {
+              "type": "VARIANT",
+              "options": [
+                "Floating Button",
+                "Text Button",
+                "Tertiary Button"
+              ]
+            }
+          }
+        },
+        {
+          "exposedAs": [
+            "Menu"
+          ],
+          "key": "c39f4b9182537a7aada94b15d086c17d17d6a8c5",
+          "name": ".action_list",
+          "properties": {
+            "Rows": {
+              "type": "VARIANT",
+              "options": [
+                "2",
+                "3",
+                "4",
+                "5",
+                "6"
+              ]
+            },
+            "Platform": {
+              "type": "VARIANT",
+              "options": [
+                "Web/Android",
+                "iOS Light"
+              ]
+            }
+          }
+        }
+      ]
     },
     "Alert": {
       "key": "6fe94d63e6cfed7576d199dedf7823f55c04b368",
-      "nodeId": "11:110015",
       "pattern": "Pattern 1",
       "variantCount": 3,
       "auditedDate": "2026-08-11",
-      "status": "Clean"
+      "status": "Clean — verified live, matched existing spec exactly"
     },
     "Autocomplete": {
       "key": "b6e4071d5ce0ee97677d54e7b2e9b16afcbbb31d",
-      "nodeId": "2305:20096",
       "pattern": "Pattern 2",
       "variantCount": 24,
       "auditedDate": "2026-08-11",
-      "status": "Reclassified (was Pattern 1)"
+      "status": "Reclassified (was Pattern 1) — 40 exposed instances found live (Icon Trailing, .base_rows)",
+      "nodeId": "2305:20096",
+      "exposedSubComponents": [
+        {
+          "exposedAs": [
+            ".base_rows"
+          ],
+          "key": "317e92e3a28d47093cd5870536444f9fb826d5d5",
+          "name": ".base_rows",
+          "properties": {
+            "Text button": {
+              "type": "BOOLEAN"
+            },
+            "Row 2": {
+              "type": "BOOLEAN"
+            },
+            "Row 1": {
+              "type": "BOOLEAN"
+            },
+            "Row 3": {
+              "type": "BOOLEAN"
+            },
+            "Row 4": {
+              "type": "BOOLEAN"
+            },
+            "Row 5": {
+              "type": "BOOLEAN"
+            },
+            "Row 6": {
+              "type": "BOOLEAN"
+            },
+            "Mobile": {
+              "type": "VARIANT",
+              "options": [
+                "On",
+                "Off"
+              ]
+            },
+            "No results": {
+              "type": "VARIANT",
+              "options": [
+                "Off",
+                "On"
+              ]
+            }
+          }
+        },
+        {
+          "exposedAs": [
+            ".base_rows"
+          ],
+          "key": "d1e675a6bec7050770fc0d38029fc35669a30e96",
+          "name": ".base_rows",
+          "properties": {
+            "Text button": {
+              "type": "BOOLEAN"
+            },
+            "Row 2": {
+              "type": "BOOLEAN"
+            },
+            "Row 1": {
+              "type": "BOOLEAN"
+            },
+            "Row 3": {
+              "type": "BOOLEAN"
+            },
+            "Row 4": {
+              "type": "BOOLEAN"
+            },
+            "Row 5": {
+              "type": "BOOLEAN"
+            },
+            "Row 6": {
+              "type": "BOOLEAN"
+            },
+            "Mobile": {
+              "type": "VARIANT",
+              "options": [
+                "On",
+                "Off"
+              ]
+            },
+            "No results": {
+              "type": "VARIANT",
+              "options": [
+                "Off",
+                "On"
+              ]
+            }
+          }
+        },
+        {
+          "exposedAs": [
+            "Icon Trailing"
+          ],
+          "key": "a5e460c768eb3fd8e77a1160303d97a80e3adb87",
+          "name": ".icon_button",
+          "properties": {
+            "↳ select icon trailing": {
+              "type": "INSTANCE_SWAP"
+            },
+            "Type": {
+              "type": "VARIANT",
+              "options": [
+                "Button",
+                "Icon"
+              ]
+            }
+          }
+        },
+        {
+          "exposedAs": [
+            ".base_rows"
+          ],
+          "key": "8008c96baf4ea548fa15aa6cd499f92773c9665d",
+          "name": ".base_rows",
+          "properties": {
+            "Text button": {
+              "type": "BOOLEAN"
+            },
+            "Row 2": {
+              "type": "BOOLEAN"
+            },
+            "Row 1": {
+              "type": "BOOLEAN"
+            },
+            "Row 3": {
+              "type": "BOOLEAN"
+            },
+            "Row 4": {
+              "type": "BOOLEAN"
+            },
+            "Row 5": {
+              "type": "BOOLEAN"
+            },
+            "Row 6": {
+              "type": "BOOLEAN"
+            },
+            "Mobile": {
+              "type": "VARIANT",
+              "options": [
+                "On",
+                "Off"
+              ]
+            },
+            "No results": {
+              "type": "VARIANT",
+              "options": [
+                "Off",
+                "On"
+              ]
+            }
+          }
+        },
+        {
+          "exposedAs": [
+            ".base_rows"
+          ],
+          "key": "0d5eed6f923d948802dd874aa05a82a4ac5af2b8",
+          "name": ".base_rows",
+          "properties": {
+            "Text button": {
+              "type": "BOOLEAN"
+            },
+            "Row 2": {
+              "type": "BOOLEAN"
+            },
+            "Row 1": {
+              "type": "BOOLEAN"
+            },
+            "Row 3": {
+              "type": "BOOLEAN"
+            },
+            "Row 4": {
+              "type": "BOOLEAN"
+            },
+            "Row 5": {
+              "type": "BOOLEAN"
+            },
+            "Row 6": {
+              "type": "BOOLEAN"
+            },
+            "Mobile": {
+              "type": "VARIANT",
+              "options": [
+                "On",
+                "Off"
+              ]
+            },
+            "No results": {
+              "type": "VARIANT",
+              "options": [
+                "Off",
+                "On"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "Avatar": {
+      "key": "dcc57df93537a70ccc49221904d31bac911fdcc8",
+      "nodeId": "11:146259",
+      "pattern": "Pattern 1",
+      "variantCount": 103,
+      "auditedDate": "2026-08-11",
+      "status": "Clean — verified live via Figma Desktop Bridge"
+    },
+    "Badge": {
+      "key": "ac3a83569347cde8300494ded82054462631b717",
+      "pattern": "Pattern 1",
+      "variantCount": 28,
+      "status": "Documented — page title has a stray trailing '2' ('Badge Figma Props 2'), cosmetic only"
+    },
+    "Badge Store": {
+      "key": "6b982317e899bc992539ae6872cd4d5762b20898",
+      "pattern": "Pattern 1",
+      "variantCount": 24,
+      "status": "Documented"
+    },
+    "Brand Logo": {
+      "key": "c2dc9ceeed9f550a1bbed6f3cdc223c8eed103c4",
+      "pattern": "Pattern 1",
+      "variantCount": 136,
+      "status": "Not re-verified this pass — Foundations Library bridge connection wasn't available; key is last-known, not live-confirmed"
+    },
+    "Button": {
+      "key": "97d227b9a0714f73ddf4679c1354f5430437b7e6",
+      "pattern": "Pattern 1",
+      "variantCount": 828,
+      "status": "Documented"
+    },
+    "Button Bar": {
+      "key": "5c33d2af24a9dbde936a50062d17071f29d8dba7",
+      "pattern": "Pattern 1",
+      "variantCount": 12,
+      "status": "Documented"
+    },
+    "Button Card": {
+      "key": "2506f62749f9b4d09a216c1747a840bb61dee025",
+      "pattern": "Pattern 1",
+      "variantCount": 8,
+      "status": "Documented"
+    },
+    "Button Card Group": {
+      "key": "df93c1020e8504e5cd6d0e54b528cac9b0d5aeaa",
+      "pattern": "Pattern 1",
+      "variantCount": 2,
+      "status": "Documented"
+    },
+    "Button Group": {
+      "key": "d8f3e47638fc1b4641ec2b86596dd1abbb8557ee",
+      "pattern": "Pattern 2",
+      "variantCount": 8,
+      "status": "Documented",
+      "nodeId": "11:9567",
+      "exposedSubComponents": [
+        {
+          "exposedAs": [
+            "1. Button group item",
+            "2. Button group item",
+            "3. Button group item",
+            "4. Button group item",
+            "5. Button group item",
+            "6. Button group item",
+            "7. Button group item",
+            "8. Button group item",
+            "9. Button group item"
+          ],
+          "key": "610028119393f730e51b26f4157cbbd0d0a37bf7",
+          "name": ".base_button_group",
+          "properties": {
+            "Highlight": {
+              "type": "BOOLEAN"
+            },
+            "Size": {
+              "type": "VARIANT",
+              "options": [
+                "40",
+                "48"
+              ]
+            },
+            "Type": {
+              "type": "VARIANT",
+              "options": [
+                "Text",
+                "Icon text",
+                "Icon"
+              ]
+            },
+            "State": {
+              "type": "VARIANT",
+              "options": [
+                "Default",
+                "Hover",
+                "Pressed",
+                "Disabled"
+              ]
+            },
+            "Selected": {
+              "type": "VARIANT",
+              "options": [
+                "True",
+                "False"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "Card": {
+      "key": "cc742e4501a43a1d2a414295a816dbbd5ae7a55d",
+      "pattern": "Pattern 2",
+      "variantCount": 12,
+      "status": "Documented",
+      "nodeId": "11:154743",
+      "exposedSubComponents": [
+        {
+          "exposedAs": [
+            "Content placeholder"
+          ],
+          "key": "08ba36d263c9777d4616a752d6e9a90f3ccae666",
+          "name": "Content placeholder",
+          "properties": {}
+        }
+      ]
+    },
+    "Carousel": {
+      "key": "25b22c21b862d6d200032566aff03af0d848f63f",
+      "pattern": "Pattern 1",
+      "variantCount": 48,
+      "status": "Documented"
+    },
+    "Cell Content": {
+      "key": "71b1f5176db52eb12c7744a0df8c4096655ac6f4",
+      "pattern": "Pattern 1",
+      "variantCount": 20,
+      "status": "Reclassified (was Pattern 2) — live isExposedInstance trace found no nested exposed instances; Icon Right is an INSTANCE_SWAP property, not an exposed sub-component"
+    },
+    "Checkbox": {
+      "key": "d492baa47ceea8f55da76b1d87b24cae798b4ca6",
+      "pattern": "Pattern 1",
+      "variantCount": 144,
+      "status": "Documented"
+    },
+    "Checkbox Group": {
+      "key": "ccf4d111c1474025d9db50029bbb674ae29e51ea",
+      "pattern": "Pattern 2",
+      "variantCount": 2,
+      "status": "Documented — component set name in Figma has a typo ('Checkbox goup')",
+      "nodeId": "12217:2024",
+      "exposedSubComponents": [
+        {
+          "exposedAs": [
+            "Header form"
+          ],
+          "key": "2fd26bdf7fa1968e9a1ad3155f546011e2914095",
+          "name": ".header_form",
+          "properties": {
+            "Required": {
+              "type": "BOOLEAN"
+            },
+            "Optional": {
+              "type": "BOOLEAN"
+            },
+            "Tooltip": {
+              "type": "BOOLEAN"
+            },
+            "Helper text": {
+              "type": "BOOLEAN"
+            }
+          }
+        },
+        {
+          "exposedAs": [
+            "Checkboxes"
+          ],
+          "key": "f4d13671058cf9ff3ff424095da3e0f8a6c66464",
+          "name": ".checkboxes - Vertical",
+          "properties": {
+            "Column 2": {
+              "type": "BOOLEAN"
+            },
+            "Border": {
+              "type": "VARIANT",
+              "options": [
+                "ON",
+                "OFF"
+              ]
+            }
+          }
+        },
+        {
+          "exposedAs": [
+            "Checkboxes"
+          ],
+          "key": "11846eb9f1222d6f339e29a9a4676c6ed483489c",
+          "name": ".checkboxes - Horizontal",
+          "properties": {
+            "Checkbox 4": {
+              "type": "BOOLEAN"
+            },
+            "Checkbox 5": {
+              "type": "BOOLEAN"
+            },
+            "Checkbox 3": {
+              "type": "BOOLEAN"
+            },
+            "Border": {
+              "type": "VARIANT",
+              "options": [
+                "OFF",
+                "ON"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "Chip": {
+      "key": "17017457df5974938d57279d546c130c35785f5b",
+      "nodeId": "11:10848",
+      "pattern": "Pattern 1",
+      "variantCount": 15,
+      "auditedDate": "2026-08-26",
+      "status": "Verified live — distinct COMPONENT_SET from Chip Group, confirmed not a duplicate. Props: Icon Left (boolean), nested Select Icon (instance-swap), Type (Filter/Input/Action), State (Default/Hover/Pressed), Selected (True/False). No exposed instances."
+    },
+    "Chip Group": {
+      "key": "0bc58367303e8375707c680133043f5ce5e601cc",
+      "nodeId": "11:10915",
+      "pattern": "Pattern 1",
+      "variantCount": 3,
+      "auditedDate": "2026-08-26",
+      "status": "Verified live — distinct COMPONENT_SET from Chip, confirmed not a duplicate. Only prop: Type (Filter/Input/Action). No exposed instances. Earlier Confluence-era note about identical merged Chip+Chip Group page content was a documentation-only defect — underlying key/variantCount were already correct."
+    },
+    "Coachmark": {
+      "key": "d1274e9f9474365783926ee5330e10f93b96a1af",
+      "nodeId": "13450:129981",
+      "pattern": "Pattern 2",
+      "variantCount": 12,
+      "auditedDate": "2026-08-11",
+      "status": "Correction — previously-documented canonical node no longer resolves live; this is now the only live Coachmark component set",
+      "exposedSubComponents": [
+        {
+          "exposedAs": [
+            ".coachmarkContent"
+          ],
+          "key": "f4c76f4315a71bea094951f31af601e8f8e918b7",
+          "name": ".coachmarkContent",
+          "properties": {
+            "Img": {
+              "type": "BOOLEAN"
+            },
+            "Paragraph": {
+              "type": "BOOLEAN"
+            },
+            "Footer": {
+              "type": "BOOLEAN"
+            },
+            "Steps": {
+              "type": "BOOLEAN"
+            },
+            "Secondary button": {
+              "type": "BOOLEAN"
+            }
+          }
+        },
+        {
+          "exposedAs": [
+            ".header"
+          ],
+          "key": "b8f80d92b81a5f56ce921c1c582bddf1a9d7f6b9",
+          "name": ".header",
+          "properties": {
+            "Tag": {
+              "type": "BOOLEAN"
+            },
+            "Tag position": {
+              "type": "VARIANT",
+              "options": [
+                "On top",
+                "Center"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "Content Placeholder": {
+      "key": "08ba36d263c9777d4616a752d6e9a90f3ccae666",
+      "nodeId": "11:178535",
+      "pattern": "Pattern 1",
+      "variantCount": 1,
+      "auditedDate": "2026-08-26",
+      "status": "Verified live — single COMPONENT (no variant set), no componentPropertyDefinitions, no children, no exposed instances. Design-intent is a slot: instantiated once and swapped/replaced with local content, not configured via props or variants."
+    },
+    "Counter Field": {
+      "key": "ba7744261bff406e4d223b44520be3c22653b476",
+      "pattern": "Pattern 1",
+      "variantCount": 6,
+      "status": "Documented"
+    },
+    "Divider": {
+      "key": "4686de8c81968ab25756ab8579b639f27d2741ba",
+      "status": "Documented — standalone component, no variants"
+    },
+    "Dropdown": {
+      "key": "a5f4fb28f1a8011a07b7594d08fee6c8f06830d7",
+      "pattern": "Pattern 1",
+      "variantCount": 48,
+      "status": "Documented"
+    },
+    "Energy Tag": {
+      "key": "0e8d81cb86d1bcfd8958ceb7e4b8a307f72b63c6",
+      "pattern": "Pattern 1",
+      "variantCount": 48,
+      "status": "Documented"
+    },
+    "Feedback Messages": {
+      "key": "2d943c51f0e7a4268e8c71cf883d175b4020051d",
+      "pattern": "Pattern 1",
+      "variantCount": 48,
+      "status": "Documented"
+    },
+    "Feedback Thumb Buttons": {
+      "key": "decb36a7b8253a10d39ff95d6b1fb219c248e45f",
+      "pattern": "Pattern 1",
+      "variantCount": 2,
+      "status": "Documented"
+    },
+    "Floating Button Group": {
+      "key": "0a2029ea677294b495b29cce28aa05b486a8dbd5",
+      "pattern": "Pattern 2",
+      "variantCount": 4,
+      "status": "Documented",
+      "nodeId": "10515:15403",
+      "exposedSubComponents": [
+        {
+          "exposedAs": [
+            "Floating button group item 1",
+            "Floating button group item 2",
+            "Floating button group item 3"
+          ],
+          "key": "b9aaa162a6692c74086f1816300cf8a502a3bf11",
+          "name": ".base_floating_button_group",
+          "properties": {
+            "Select icon": {
+              "type": "INSTANCE_SWAP"
+            },
+            "State": {
+              "type": "VARIANT",
+              "options": [
+                "Default",
+                "Hover",
+                "Pressed",
+                "Disabled"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "Image Ratio": {
+      "key": "62e174674262222335bd7a283d84f3562373e686",
+      "pattern": "Pattern 1",
+      "variantCount": 11,
+      "status": "Not re-verified this pass — Foundations Library bridge connection wasn't available; key is last-known, not live-confirmed"
+    },
+    "Image Slider": {
+      "key": "03574118c855a279e89ce1058e78c2f4fc3a20ef",
+      "pattern": "Pattern 2",
+      "variantCount": 56,
+      "status": "Documented",
+      "nodeId": "11:180906",
+      "exposedSubComponents": [
+        {
+          "exposedAs": [
+            ".views_tags"
+          ],
+          "key": "5fb0ebae560337353144400237e16cdbede14cf6",
+          "name": ".views_tags",
+          "properties": {
+            "Boolean": {
+              "type": "BOOLEAN"
+            },
+            "Nr Tags": {
+              "type": "VARIANT",
+              "options": [
+                "1",
+                "2"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "Link": {
+      "key": "098d8d7a3716325411b867819f11cf9516e99bdb",
+      "pattern": "Pattern 1",
+      "variantCount": 32,
+      "status": "Documented"
+    },
+    "Loading State": {
+      "key": "16200c0f1ec608b4d98156b737247c6b25b4364b",
+      "pattern": "Pattern 2",
+      "variantCount": 4,
+      "status": "Documented",
+      "nodeId": "11:118473",
+      "exposedSubComponents": [
+        {
+          "exposedAs": [
+            "Spinner"
+          ],
+          "key": "75f1078261365b7cde865570d3258dbf93260f1e",
+          "name": ".spinner",
+          "properties": {
+            "Plattform": {
+              "type": "VARIANT",
+              "options": [
+                "Android / Web",
+                "iOS"
+              ]
+            },
+            "Size": {
+              "type": "VARIANT",
+              "options": [
+                "32px",
+                "24px"
+              ]
+            },
+            "Style": {
+              "type": "VARIANT",
+              "options": [
+                "Default",
+                "Inverted"
+              ]
+            }
+          }
+        },
+        {
+          "exposedAs": [
+            "Variable tag"
+          ],
+          "key": "c84b651f8180623d36117aff529ba67a170779a7",
+          "name": ".Alerts - Tag",
+          "properties": {
+            "Style": {
+              "type": "VARIANT",
+              "options": [
+                "Accent",
+                "Isometric",
+                "Matilde",
+                "None"
+              ]
+            },
+            "Size": {
+              "type": "VARIANT",
+              "options": [
+                "Large",
+                "Small"
+              ]
+            },
+            "Type": {
+              "type": "VARIANT",
+              "options": [
+                "Request",
+                "Variable"
+              ]
+            }
+          }
+        },
+        {
+          "exposedAs": [
+            "Spinner"
+          ],
+          "key": "675ca56b2f71288b3d75ce2ed7ef338b11c3faf3",
+          "name": ".spinner",
+          "properties": {
+            "Plattform": {
+              "type": "VARIANT",
+              "options": [
+                "Android / Web",
+                "iOS"
+              ]
+            },
+            "Size": {
+              "type": "VARIANT",
+              "options": [
+                "32px",
+                "24px"
+              ]
+            },
+            "Style": {
+              "type": "VARIANT",
+              "options": [
+                "Default",
+                "Inverted"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "Modal Bottom Sheet": {
+      "key": "0a89fa775a98ad098bd0f3fb7c3909d98eb8b53b",
+      "pattern": "Pattern 2",
+      "variantCount": 21,
+      "status": "Documented",
+      "nodeId": "11:88040",
+      "exposedSubComponents": [
+        {
+          "exposedAs": [
+            "Content placeholder"
+          ],
+          "key": "cea39abc78468f5f18d4be24320cc27ecf634f2f",
+          "name": ".content_all platform_default",
+          "properties": {
+            "Content": {
+              "type": "INSTANCE_SWAP"
+            },
+            "Padding": {
+              "type": "VARIANT",
+              "options": [
+                "Yes",
+                "No"
+              ]
+            },
+            "Platform": {
+              "type": "VARIANT",
+              "options": [
+                "iOS/Android",
+                "Web"
+              ]
+            }
+          }
+        },
+        {
+          "exposedAs": [
+            "Text Button"
+          ],
+          "key": "4b1fc65d1dbade02183151109b16fb9329609ed1",
+          "name": "Text Button",
+          "properties": {
+            "↳ Select Icon": {
+              "type": "INSTANCE_SWAP"
+            },
+            "Platform": {
+              "type": "VARIANT",
+              "options": [
+                "Android",
+                "Web / iOS"
+              ]
+            },
+            "Type": {
+              "type": "VARIANT",
+              "options": [
+                "Default",
+                "Danger"
+              ]
+            },
+            "Style": {
+              "type": "VARIANT",
+              "options": [
+                "Default",
+                "Inverted"
+              ]
+            },
+            "Size": {
+              "type": "VARIANT",
+              "options": [
+                "14px",
+                "16px"
+              ]
+            },
+            "State": {
+              "type": "VARIANT",
+              "options": [
+                "Default",
+                "Hover",
+                "Pressed",
+                "Disabled"
+              ]
+            },
+            "Icon": {
+              "type": "VARIANT",
+              "options": [
+                "No Icon",
+                "Left",
+                "Right",
+                "Icon only"
+              ]
+            }
+          }
+        },
+        {
+          "exposedAs": [
+            "Content Placeholder"
+          ],
+          "key": "eb27e8455c2d1fad2e8181aaae8ad6d0f6fe931a",
+          "name": ".content_phone_fullscreen",
+          "properties": {
+            "Content": {
+              "type": "INSTANCE_SWAP"
+            },
+            "Padding": {
+              "type": "VARIANT",
+              "options": [
+                "Yes",
+                "No"
+              ]
+            }
+          }
+        },
+        {
+          "exposedAs": [
+            "Content Placeholder"
+          ],
+          "key": "579c0a3a77a2265b7de29919f7bdb8f3caa22c35",
+          "name": ".content_desktop_fullscreen",
+          "properties": {
+            "Content": {
+              "type": "INSTANCE_SWAP"
+            },
+            "Padding": {
+              "type": "VARIANT",
+              "options": [
+                "Yes",
+                "No"
+              ]
+            }
+          }
+        },
+        {
+          "exposedAs": [
+            "Text Button"
+          ],
+          "key": "d4582c7925ba7246d9a4ec29cc8ffb93f5478330",
+          "name": "Text Button",
+          "properties": {
+            "↳ Select Icon": {
+              "type": "INSTANCE_SWAP"
+            },
+            "Platform": {
+              "type": "VARIANT",
+              "options": [
+                "Android",
+                "Web / iOS"
+              ]
+            },
+            "Type": {
+              "type": "VARIANT",
+              "options": [
+                "Default",
+                "Danger"
+              ]
+            },
+            "Style": {
+              "type": "VARIANT",
+              "options": [
+                "Default",
+                "Inverted"
+              ]
+            },
+            "Size": {
+              "type": "VARIANT",
+              "options": [
+                "14px",
+                "16px"
+              ]
+            },
+            "State": {
+              "type": "VARIANT",
+              "options": [
+                "Default",
+                "Hover",
+                "Pressed",
+                "Disabled"
+              ]
+            },
+            "Icon": {
+              "type": "VARIANT",
+              "options": [
+                "No Icon",
+                "Left",
+                "Right",
+                "Icon only"
+              ]
+            }
+          }
+        },
+        {
+          "exposedAs": [
+            "Content Placeholder"
+          ],
+          "key": "90779dd3755ed6b1b0e06788c50e71ce9db4c6bd",
+          "name": ".content_tablet_fullscreen",
+          "properties": {
+            "Content": {
+              "type": "INSTANCE_SWAP"
+            },
+            "Padding": {
+              "type": "VARIANT",
+              "options": [
+                "Yes",
+                "No"
+              ]
+            }
+          }
+        },
+        {
+          "exposedAs": [
+            "Content Placeholder"
+          ],
+          "key": "c0a4605fa994eebad46f17ffa9710bc9acbc189d",
+          "name": ".content_all platform_default",
+          "properties": {
+            "Content": {
+              "type": "INSTANCE_SWAP"
+            },
+            "Padding": {
+              "type": "VARIANT",
+              "options": [
+                "Yes",
+                "No"
+              ]
+            },
+            "Platform": {
+              "type": "VARIANT",
+              "options": [
+                "iOS/Android",
+                "Web"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "Modal Bottom Sheet Menu": {
+      "key": "187aaabd41d7dd86c92f64a4a4c9a96ea2cf9661",
+      "pattern": "Pattern 1",
+      "variantCount": 3,
+      "status": "Documented — separate component from Modal Bottom Sheet (action menu shown as a bottom sheet)"
+    },
+    "Navigation Bar (App)": {
+      "key": "9f1d1113ba20d149f079e9bdf448e3342f6f77ba",
+      "pattern": "Pattern 2",
+      "variantCount": 18,
+      "status": "Documented — mobile (iOS/Android) only",
+      "nodeId": "11:75015",
+      "exposedSubComponents": [
+        {
+          "exposedAs": [
+            ".base_tab"
+          ],
+          "key": "36302a1b4180474b0457d5fd2d92c5df07c9fe80",
+          "name": ".base_tab",
+          "properties": {
+            "Badge": {
+              "type": "BOOLEAN"
+            },
+            "Platform": {
+              "type": "VARIANT",
+              "options": [
+                "Android",
+                "iOS"
+              ]
+            },
+            "Label Position": {
+              "type": "VARIANT",
+              "options": [
+                "Below",
+                "Side"
+              ]
+            },
+            "State": {
+              "type": "VARIANT",
+              "options": [
+                "Active",
+                "Inactive"
+              ]
+            }
+          }
+        },
+        {
+          "exposedAs": [
+            ".base_tab"
+          ],
+          "key": "09a3487ea5ac71493c2a8d21ba9066e0727ce8c7",
+          "name": ".base_tab",
+          "properties": {
+            "Badge": {
+              "type": "BOOLEAN"
+            },
+            "Platform": {
+              "type": "VARIANT",
+              "options": [
+                "Android",
+                "iOS"
+              ]
+            },
+            "Label Position": {
+              "type": "VARIANT",
+              "options": [
+                "Below",
+                "Side"
+              ]
+            },
+            "State": {
+              "type": "VARIANT",
+              "options": [
+                "Active",
+                "Inactive"
+              ]
+            }
+          }
+        },
+        {
+          "exposedAs": [
+            ".base_tab"
+          ],
+          "key": "c12564561fbdefe186deb0f6b8e3ea0ca7f6db70",
+          "name": ".base_tab",
+          "properties": {
+            "Badge": {
+              "type": "BOOLEAN"
+            },
+            "Platform": {
+              "type": "VARIANT",
+              "options": [
+                "Android",
+                "iOS"
+              ]
+            },
+            "Label Position": {
+              "type": "VARIANT",
+              "options": [
+                "Below",
+                "Side"
+              ]
+            },
+            "State": {
+              "type": "VARIANT",
+              "options": [
+                "Active",
+                "Inactive"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "Pagination": {
+      "key": "c966f537d3d1078c6b56ae334ab4b8787ed222ff",
+      "pattern": "Pattern 1",
+      "variantCount": 6,
+      "status": "Documented"
+    },
+    "Pop-up": {
+      "key": "0f5f4bb87d371a7645657384a67790759ea9c080",
+      "pattern": "Pattern 1",
+      "variantCount": 12,
+      "status": "Documented"
+    },
+    "Programmatic Ads": {
+      "key": "07d79452fda22931da85fd5bfbe7c55e83e81a46",
+      "pattern": "Pattern 1",
+      "variantCount": 7,
+      "status": "Documented"
+    },
+    "Progress Bar": {
+      "key": "f2cfae994502792dc220e9eb7c3239e0447a3e71",
+      "status": "Documented — standalone component, no variants"
+    },
+    "Progress Circle": {
+      "key": "bbd8122bd86b0374ffe71a971a9412fe424bedec",
+      "pattern": "Pattern 1",
+      "variantCount": 6,
+      "status": "Documented"
+    },
+    "Radio Button Group": {
+      "key": "e751c0a41ef12cb59856926f1541dda87aa65473",
+      "pattern": "Pattern 2",
+      "variantCount": 2,
+      "status": "Documented",
+      "nodeId": "11:49124",
+      "exposedSubComponents": [
+        {
+          "exposedAs": [
+            "Header form"
+          ],
+          "key": "2fd26bdf7fa1968e9a1ad3155f546011e2914095",
+          "name": ".header_form",
+          "properties": {
+            "Required": {
+              "type": "BOOLEAN"
+            },
+            "Optional": {
+              "type": "BOOLEAN"
+            },
+            "Tooltip": {
+              "type": "BOOLEAN"
+            },
+            "Helper text": {
+              "type": "BOOLEAN"
+            }
+          }
+        },
+        {
+          "exposedAs": [
+            "Radio"
+          ],
+          "key": "04b9b0c3175e3d113a646cae2e17231e27fc9ca0",
+          "name": ".radio - Vertical",
+          "properties": {
+            "Column 2": {
+              "type": "BOOLEAN"
+            },
+            "Line 2": {
+              "type": "BOOLEAN"
+            },
+            "Line 3": {
+              "type": "BOOLEAN"
+            },
+            "Line 4": {
+              "type": "BOOLEAN"
+            },
+            "Line 5": {
+              "type": "BOOLEAN"
+            },
+            "Border": {
+              "type": "VARIANT",
+              "options": [
+                "OFF",
+                "ON"
+              ]
+            }
+          }
+        },
+        {
+          "exposedAs": [
+            "Radio"
+          ],
+          "key": "ed09c6b4a00b3f2b3e07286680d276e7c4e63ed0",
+          "name": ".Horizontal",
+          "properties": {
+            "Radio 4": {
+              "type": "BOOLEAN"
+            },
+            "Radio 5": {
+              "type": "BOOLEAN"
+            },
+            "Radio 3": {
+              "type": "BOOLEAN"
+            },
+            "Border": {
+              "type": "VARIANT",
+              "options": [
+                "OFF",
+                "ON"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "Rating": {
+      "key": "b55038542f08df6aa93e710627169d826063fca7",
+      "pattern": "Pattern 2",
+      "variantCount": 4,
+      "status": "Documented",
+      "nodeId": "11:182570",
+      "exposedSubComponents": [
+        {
+          "exposedAs": [
+            "Star 1",
+            "Star 2",
+            "Star 3"
+          ],
+          "key": "65eefa8eb5eb8104299cb451f3b16cd90cba6109",
+          "name": ".star",
+          "properties": {
+            "Type": {
+              "type": "VARIANT",
+              "options": [
+                "Full",
+                "Half",
+                "Empty"
+              ]
+            }
+          }
+        },
+        {
+          "exposedAs": [
+            "Star 4"
+          ],
+          "key": "a1298a5d39ac54eac385c5ca07dcb84fb3e0f9de",
+          "name": ".star",
+          "properties": {
+            "Type": {
+              "type": "VARIANT",
+              "options": [
+                "Full",
+                "Half",
+                "Empty"
+              ]
+            }
+          }
+        },
+        {
+          "exposedAs": [
+            "Star 5"
+          ],
+          "key": "03fb8315fbc5773977c2938de63adc0a7fbed6ed",
+          "name": ".star",
+          "properties": {
+            "Type": {
+              "type": "VARIANT",
+              "options": [
+                "Full",
+                "Half",
+                "Empty"
+              ]
+            }
+          }
+        },
+        {
+          "exposedAs": [
+            ".rating"
+          ],
+          "key": "214b8968f4fc4026d98ce0b65c7f7f66e90cfea8",
+          "name": ".rating",
+          "properties": {
+            "Type": {
+              "type": "VARIANT",
+              "options": [
+                "x/5",
+                "x"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "Score Tag": {
+      "key": "538501c2e78d510683508ab5dc7ba42fd67ae83f",
+      "pattern": "Pattern 1",
+      "variantCount": 4,
+      "status": "Documented"
+    },
+    "Segmented Control": {
+      "key": "9bcb3d3bd94a59c955ecdf32eb33254e019b52f5",
+      "pattern": "Pattern 1",
+      "variantCount": 2,
+      "status": "Documented"
+    },
+    "Select Card Group": {
+      "key": "763f4df3a87828c0b7d30c5f42fe4410da9ff4db",
+      "pattern": "Pattern 2",
+      "variantCount": 28,
+      "status": "Documented — component set is actually named 'Select card' in Figma; sibling node '.Select card AI test' excluded as an internal experiment",
+      "nodeId": "11:50242",
+      "exposedSubComponents": [
+        {
+          "exposedAs": [
+            ".content select card"
+          ],
+          "key": "a21124e029a2bb1abd7c4f14a28e18cfa163faaa",
+          "name": ".content select card",
+          "properties": {
+            "Illustration (40px)": {
+              "type": "BOOLEAN"
+            },
+            "↳ choose icon": {
+              "type": "INSTANCE_SWAP"
+            },
+            "Illustration (64px)": {
+              "type": "BOOLEAN"
+            },
+            "Icon": {
+              "type": "BOOLEAN"
+            },
+            "Description": {
+              "type": "BOOLEAN"
+            },
+            "Alignment": {
+              "type": "VARIANT",
+              "options": [
+                "Horizontal",
+                "Vertical"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "Slider": {
+      "key": "3fcda02d3b65e7e89bad1946253166b9fc2f3cb5",
+      "pattern": "Pattern 2",
+      "variantCount": 18,
+      "status": "Documented",
+      "nodeId": "11083:4586",
+      "exposedSubComponents": [
+        {
+          "exposedAs": [
+            ".header_slider"
+          ],
+          "key": "944a1ac9a96992532ff1f19539176626f223ff62",
+          "name": ".header_slider",
+          "properties": {
+            "Show value": {
+              "type": "BOOLEAN"
+            },
+            "Show .header form": {
+              "type": "BOOLEAN"
+            }
+          }
+        },
+        {
+          "exposedAs": [
+            ".header form"
+          ],
+          "key": "10ffb513884b5e0e56cba53a53131f9e50b57e10",
+          "name": ".header_form",
+          "properties": {
+            "Required": {
+              "type": "BOOLEAN"
+            },
+            "Optional": {
+              "type": "BOOLEAN"
+            },
+            "Tooltip": {
+              "type": "BOOLEAN"
+            },
+            "Helper text": {
+              "type": "BOOLEAN"
+            }
+          }
+        },
+        {
+          "exposedAs": [
+            "Icon Trailing"
+          ],
+          "key": "a5e460c768eb3fd8e77a1160303d97a80e3adb87",
+          "name": ".icon_button",
+          "properties": {
+            "↳ select icon trailing": {
+              "type": "INSTANCE_SWAP"
+            },
+            "Type": {
+              "type": "VARIANT",
+              "options": [
+                "Button",
+                "Icon"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "Snackbar": {
+      "key": "4cde9dbb04d9a342757faf991ad4f4c45111191e",
+      "pattern": "Pattern 1",
+      "variantCount": 24,
+      "status": "Documented"
+    },
+    "State Messages": {
+      "key": "7c94cec95f0a93ea9e2b5a0b2affd963bcf7b189",
+      "pattern": "Pattern 1",
+      "variantCount": 5,
+      "status": "Documented"
+    },
+    "Tab Bar": {
+      "key": "29ac52250ffa7869a62d1676c325d2a6253b0a68",
+      "nodeId": "13608:2423",
+      "variantCount": 3,
+      "status": "Documented — newly discovered, undocumented, no pattern classification stated; lives on the 'Tabs' page inside a 'Refacto' section, likely an in-progress refactor"
+    },
+    "Tabs": {
+      "key": "858ec7e6439fc613f65335a73673b35642871d8c",
+      "pattern": "Pattern 2",
+      "variantCount": 6,
+      "status": "Documented — corrected .item_tabs key from previous version of this page",
+      "nodeId": "11:70520",
+      "exposedSubComponents": [
+        {
+          "exposedAs": [
+            ".base_tabs"
+          ],
+          "key": "62c072302c8131d0ea5ad4b1fc028d19f008c0e3",
+          "name": ".base_tabs",
+          "properties": {
+            "Arrow Left": {
+              "type": "BOOLEAN"
+            },
+            "Arrow Right": {
+              "type": "BOOLEAN"
+            },
+            "Type": {
+              "type": "VARIANT",
+              "options": [
+                "Fill Container",
+                "Hug Content"
+              ]
+            },
+            "Alignment": {
+              "type": "VARIANT",
+              "options": [
+                "Left",
+                "Center"
+              ]
+            },
+            "Divider": {
+              "type": "VARIANT",
+              "options": [
+                "No",
+                "Yes"
+              ]
+            }
+          }
+        },
+        {
+          "exposedAs": [
+            "tab_02",
+            "tab_01"
+          ],
+          "key": "7e2be3e3a260b29971e79170dd52a9dfefa51788",
+          "name": ".item_tabs",
+          "properties": {
+            "↳ Icon": {
+              "type": "INSTANCE_SWAP"
+            },
+            "Badge": {
+              "type": "BOOLEAN"
+            },
+            "State": {
+              "type": "VARIANT",
+              "options": [
+                "Default",
+                "Pressed",
+                "Hover",
+                "Disabled"
+              ]
+            },
+            "Active": {
+              "type": "VARIANT",
+              "options": [
+                "False",
+                "True"
+              ]
+            },
+            "Icon": {
+              "type": "VARIANT",
+              "options": [
+                "Left",
+                "None",
+                "Top"
+              ]
+            }
+          }
+        },
+        {
+          "exposedAs": [
+            "tab_03",
+            "tab_04",
+            "tab_05",
+            "tab_06",
+            "tab_02"
+          ],
+          "key": "16393e22861ff0ee7e3489e6db9a0081b731ba63",
+          "name": ".item_tabs",
+          "properties": {
+            "↳ Icon": {
+              "type": "INSTANCE_SWAP"
+            },
+            "Badge": {
+              "type": "BOOLEAN"
+            },
+            "State": {
+              "type": "VARIANT",
+              "options": [
+                "Default",
+                "Pressed",
+                "Hover",
+                "Disabled"
+              ]
+            },
+            "Active": {
+              "type": "VARIANT",
+              "options": [
+                "False",
+                "True"
+              ]
+            },
+            "Icon": {
+              "type": "VARIANT",
+              "options": [
+                "Left",
+                "None",
+                "Top"
+              ]
+            }
+          }
+        },
+        {
+          "exposedAs": [
+            ".base_tabs"
+          ],
+          "key": "a858a8754112474ce6c414643536d43084e851ab",
+          "name": ".base_tabs",
+          "properties": {
+            "Arrow Left": {
+              "type": "BOOLEAN"
+            },
+            "Arrow Right": {
+              "type": "BOOLEAN"
+            },
+            "Type": {
+              "type": "VARIANT",
+              "options": [
+                "Fill Container",
+                "Hug Content"
+              ]
+            },
+            "Alignment": {
+              "type": "VARIANT",
+              "options": [
+                "Left",
+                "Center"
+              ]
+            },
+            "Divider": {
+              "type": "VARIANT",
+              "options": [
+                "No",
+                "Yes"
+              ]
+            }
+          }
+        },
+        {
+          "exposedAs": [
+            "Button"
+          ],
+          "key": "39ec5df9e09ae20dd0935fd83a63131ed08e53b6",
+          "name": ".button_type",
+          "properties": {
+            "Type": {
+              "type": "VARIANT",
+              "options": [
+                "Floating Button",
+                "Text Button",
+                "Tertiary Button"
+              ]
+            }
+          }
+        },
+        {
+          "exposedAs": [
+            "Menu"
+          ],
+          "key": "c39f4b9182537a7aada94b15d086c17d17d6a8c5",
+          "name": ".action_list",
+          "properties": {
+            "Rows": {
+              "type": "VARIANT",
+              "options": [
+                "2",
+                "3",
+                "4",
+                "5",
+                "6"
+              ]
+            },
+            "Platform": {
+              "type": "VARIANT",
+              "options": [
+                "Web/Android",
+                "iOS Light"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "Tag": {
+      "key": "09014a9e7e7dd6c36ea324ddd2a3fb33352f6cbb",
+      "pattern": "Pattern 1",
+      "variantCount": 28,
+      "status": "Documented"
+    },
+    "Text Area": {
+      "key": "e7eb3dae754a4c1d58a1ba4664caf40d336a631d",
+      "pattern": "Pattern 2",
+      "variantCount": 32,
+      "status": "Documented",
+      "nodeId": "11:58267",
+      "exposedSubComponents": [
+        {
+          "exposedAs": [
+            "Header"
+          ],
+          "key": "2fd26bdf7fa1968e9a1ad3155f546011e2914095",
+          "name": ".header_form",
+          "properties": {
+            "Required": {
+              "type": "BOOLEAN"
+            },
+            "Optional": {
+              "type": "BOOLEAN"
+            },
+            "Tooltip": {
+              "type": "BOOLEAN"
+            },
+            "Helper text": {
+              "type": "BOOLEAN"
+            }
+          }
+        },
+        {
+          "exposedAs": [
+            ".State message + counter"
+          ],
+          "key": "4a926312b99553f950cc0bc5fd32bd02a7a581b3",
+          "name": ".State message + counter",
+          "properties": {
+            "Show helper text": {
+              "type": "BOOLEAN"
+            },
+            "Show Character counter": {
+              "type": "BOOLEAN"
+            }
+          }
+        }
+      ]
+    },
+    "Text Button": {
+      "key": "4c5f262e38bee4fcb987e6ecba58ddc3c9ae4907",
+      "pattern": "Pattern 1",
+      "variantCount": 168,
+      "status": "Documented"
+    },
+    "Text Field": {
+      "key": "f1c414ce0cf481118654da95ac073a068ad64a52",
+      "pattern": "Pattern 1",
+      "variantCount": 32,
+      "status": "Reclassified (was Pattern 2) — live isExposedInstance trace found no nested exposed instances at any depth"
+    },
+    "Toggle": {
+      "key": "519ddc073a8e4915f0ff15bbf91e540cda569d0a",
+      "pattern": "Pattern 2",
+      "variantCount": 6,
+      "status": "Documented",
+      "nodeId": "13721:45244",
+      "exposedSubComponents": [
+        {
+          "exposedAs": [
+            ".states"
+          ],
+          "key": "ae1d03a9644dd1b70a359927fb508db0df02863d",
+          "name": ".states",
+          "properties": {
+            "Error": {
+              "type": "BOOLEAN"
+            },
+            "State": {
+              "type": "VARIANT",
+              "options": [
+                "Default",
+                "Hover",
+                "Pressed",
+                "Disabled"
+              ]
+            }
+          }
+        },
+        {
+          "exposedAs": [
+            ".side"
+          ],
+          "key": "ef20341e7bb67ca41ed1bf1b5c7a5b01ce65a0b5",
+          "name": ".side",
+          "properties": {
+            "Side": {
+              "type": "VARIANT",
+              "options": [
+                "Left",
+                "Right"
+              ]
+            }
+          }
+        },
+        {
+          "exposedAs": [
+            ".content"
+          ],
+          "key": "b7bc59fcebeb4a67eb9a4bf7d61f661264ff7bca",
+          "name": ".content",
+          "properties": {
+            "Optional": {
+              "type": "BOOLEAN"
+            },
+            "Tooltip": {
+              "type": "BOOLEAN"
+            },
+            "Required": {
+              "type": "BOOLEAN"
+            },
+            "Content": {
+              "type": "VARIANT",
+              "options": [
+                "Default",
+                "With subtitle"
+              ]
+            }
+          }
+        },
+        {
+          "exposedAs": [
+            ".toggle"
+          ],
+          "key": "49385c47d52b0ae76838a589a6809c577eb9f813",
+          "name": ".toggle",
+          "properties": {
+            "Platform": {
+              "type": "VARIANT",
+              "options": [
+                "Web",
+                "iOS",
+                "Android"
+              ]
+            },
+            "State": {
+              "type": "VARIANT",
+              "options": [
+                "Default",
+                "Hover",
+                "Pressed",
+                "Disabled"
+              ]
+            },
+            "Selected": {
+              "type": "VARIANT",
+              "options": [
+                "OFF",
+                "ON"
+              ]
+            },
+            "Height": {
+              "type": "VARIANT",
+              "options": [
+                "32",
+                "20"
+              ]
+            }
+          }
+        },
+        {
+          "exposedAs": [
+            ".toggle"
+          ],
+          "key": "83761b2a8e1e6e5aaee3670c4a1d7c874d20eaae",
+          "name": ".toggle",
+          "properties": {
+            "Platform": {
+              "type": "VARIANT",
+              "options": [
+                "Web",
+                "iOS",
+                "Android"
+              ]
+            },
+            "State": {
+              "type": "VARIANT",
+              "options": [
+                "Default",
+                "Hover",
+                "Pressed",
+                "Disabled"
+              ]
+            },
+            "Selected": {
+              "type": "VARIANT",
+              "options": [
+                "OFF",
+                "ON"
+              ]
+            },
+            "Height": {
+              "type": "VARIANT",
+              "options": [
+                "32",
+                "20"
+              ]
+            }
+          }
+        },
+        {
+          "exposedAs": [
+            ".toggle"
+          ],
+          "key": "c2eb7b284011f07982972b3a5306a96d3fe475b4",
+          "name": ".toggle",
+          "properties": {
+            "Platform": {
+              "type": "VARIANT",
+              "options": [
+                "Web",
+                "iOS",
+                "Android"
+              ]
+            },
+            "State": {
+              "type": "VARIANT",
+              "options": [
+                "Default",
+                "Hover",
+                "Pressed",
+                "Disabled"
+              ]
+            },
+            "Selected": {
+              "type": "VARIANT",
+              "options": [
+                "OFF",
+                "ON"
+              ]
+            },
+            "Height": {
+              "type": "VARIANT",
+              "options": [
+                "32",
+                "20"
+              ]
+            }
+          }
+        },
+        {
+          "exposedAs": [
+            ".toggle"
+          ],
+          "key": "ef090bd8efc4fbe68a406c1c444f39c98ced33cf",
+          "name": ".toggle",
+          "properties": {
+            "Platform": {
+              "type": "VARIANT",
+              "options": [
+                "Web",
+                "iOS",
+                "Android"
+              ]
+            },
+            "State": {
+              "type": "VARIANT",
+              "options": [
+                "Default",
+                "Hover",
+                "Pressed",
+                "Disabled"
+              ]
+            },
+            "Selected": {
+              "type": "VARIANT",
+              "options": [
+                "OFF",
+                "ON"
+              ]
+            },
+            "Height": {
+              "type": "VARIANT",
+              "options": [
+                "32",
+                "20"
+              ]
+            }
+          }
+        },
+        {
+          "exposedAs": [
+            ".toggle"
+          ],
+          "key": "9cbdd6a0918503654551d19f3924787a27776ba6",
+          "name": ".toggle",
+          "properties": {
+            "Platform": {
+              "type": "VARIANT",
+              "options": [
+                "Web",
+                "iOS",
+                "Android"
+              ]
+            },
+            "State": {
+              "type": "VARIANT",
+              "options": [
+                "Default",
+                "Hover",
+                "Pressed",
+                "Disabled"
+              ]
+            },
+            "Selected": {
+              "type": "VARIANT",
+              "options": [
+                "OFF",
+                "ON"
+              ]
+            },
+            "Height": {
+              "type": "VARIANT",
+              "options": [
+                "32",
+                "20"
+              ]
+            }
+          }
+        },
+        {
+          "exposedAs": [
+            ".toggle"
+          ],
+          "key": "570c43466a1284925e0a4976f4bc52648ab7d37a",
+          "name": ".toggle",
+          "properties": {
+            "Platform": {
+              "type": "VARIANT",
+              "options": [
+                "Web",
+                "iOS",
+                "Android"
+              ]
+            },
+            "State": {
+              "type": "VARIANT",
+              "options": [
+                "Default",
+                "Hover",
+                "Pressed",
+                "Disabled"
+              ]
+            },
+            "Selected": {
+              "type": "VARIANT",
+              "options": [
+                "OFF",
+                "ON"
+              ]
+            },
+            "Height": {
+              "type": "VARIANT",
+              "options": [
+                "32",
+                "20"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "Toggle Group": {
+      "key": "647bbde284358907b5d86fed222002ce2b8b7815",
+      "nodeId": "13721:44144",
+      "status": "Documented — standalone component, no variants, no componentPropertyDefinitions found; newly discovered, undocumented, likely a container/group wrapper for individual Toggle switches"
+    },
+    "Tooltip": {
+      "key": "676c5edfb96b9595c8e7a4f8d6c1c850dc964c03",
+      "pattern": "Pattern 1",
+      "variantCount": 12,
+      "status": "Documented"
+    },
+    "Webview": {
+      "key": "30acfbc11ab09d96732738747d478cf72c023185",
+      "pattern": "Pattern 1",
+      "variantCount": 7,
+      "status": "Documented — iOS/Android only"
+    },
+    "Home Indicator": {
+      "key": "e1504d5c1604c910b2634885863052b0110b3497",
+      "nodeId": "11:219584",
+      "pattern": "Pattern 1",
+      "variantCount": 2,
+      "auditedDate": "2026-08-11",
+      "status": "Clean — verified live via Figma Desktop Bridge"
+    },
+    "Status Bar": {
+      "key": "7a7c90730cc1928f21d4746ee959d03cab7d8691",
+      "nodeId": "13894:42307",
+      "pattern": "Pattern 1",
+      "variantCount": 7,
+      "auditedDate": "2026-08-11",
+      "status": "Clean — verified live; note: 'Plattform' property has a live typo (double t), preserved verbatim"
     }
   }
 }

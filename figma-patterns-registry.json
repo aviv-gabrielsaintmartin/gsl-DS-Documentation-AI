@@ -1,0 +1,1113 @@
+{
+  "components": {
+    "Burger menu": {
+      "key": "1441ae904fca5422489654112cf2eae951511ac6",
+      "nodeId": "2213:93218",
+      "pattern": "Pattern 1",
+      "variantCount": 4,
+      "auditedDate": "2026-08-26",
+      "status": "Verified live. Lives inside a \"Documentation burger menu (web)\" presentation frame on the page — confirmed by design owner as an intentional organizational wrapper, not a staleness/duplicate signal. Props: Bottom bar (Off/On), Breakpoint (320 px/768 px). No exposed instances."
+    },
+    "Burger menu (profil)": {
+      "key": "14e3da3a77641ad18114325386e3a264526c0a21",
+      "nodeId": "2213:94048",
+      "pattern": "Pattern 1",
+      "variantCount": 4,
+      "auditedDate": "2026-08-26",
+      "status": "Verified live. Sits at page root. Confirmed by design owner as a distinct component from \"Burger menu\", not a duplicate — shares the same variant axes (Bottom bar Off/On, Breakpoint 320 px/768 px) but a separate definition/key. No exposed instances."
+    },
+    "Bar graph": {
+      "key": "804bf697ee740b385a530af149c8399ae5d980b9",
+      "nodeId": "2782:7613",
+      "pattern": "Pattern 2",
+      "variantCount": 2,
+      "status": "Verified live. Exposed sub-instances: .Header, Filters, state_message, .Bar graph vertical. Props: Legend/KPI (boolean), Type (Vertical/Horizontal). Page also holds private helper sets (.Legend, .Bar chart horizontal, .Bar horizontal, .Bar graph vertical, .Bar vertical) — not registered individually.",
+      "auditedDate": "2026-08-26",
+      "exposedSubComponents": [
+        {
+          "exposedAs": [
+            ".Header"
+          ],
+          "key": "ca3902f3b109f4a4786f9132835806c45a53e042",
+          "name": ".Header",
+          "properties": {
+            "Filters": {
+              "type": "BOOLEAN"
+            },
+            "Description": {
+              "type": "BOOLEAN"
+            }
+          }
+        },
+        {
+          "exposedAs": [
+            "Filters"
+          ],
+          "key": "86191dc25127a3e7f764b8ffb804061f13aeebf4",
+          "name": ".filters",
+          "properties": {
+            "Amount": {
+              "type": "VARIANT",
+              "options": [
+                "1",
+                "2",
+                "2+"
+              ]
+            }
+          }
+        },
+        {
+          "exposedAs": [
+            "state_message"
+          ],
+          "key": "a2901bf826e653d60ad67c9079424d4b630016d6",
+          "name": "state_message",
+          "properties": {
+            "Type": {
+              "type": "VARIANT",
+              "options": [
+                "Information",
+                "Warning",
+                "Helper",
+                "Error",
+                "Success"
+              ]
+            }
+          }
+        },
+        {
+          "exposedAs": [
+            ".Bar graph vertical"
+          ],
+          "key": "776ec1935132f70e3e7ecd9c3945819861c29a1a",
+          "name": ".Bar graph vertical",
+          "properties": {
+            "Column 2": {
+              "type": "BOOLEAN"
+            },
+            "Column 3": {
+              "type": "BOOLEAN"
+            },
+            "Column 4": {
+              "type": "BOOLEAN"
+            },
+            "Column 5": {
+              "type": "BOOLEAN"
+            },
+            "Data set 2": {
+              "type": "BOOLEAN"
+            },
+            "Data set 3": {
+              "type": "BOOLEAN"
+            },
+            "Data set 5": {
+              "type": "BOOLEAN"
+            },
+            "Y title": {
+              "type": "BOOLEAN"
+            },
+            "X title": {
+              "type": "BOOLEAN"
+            }
+          }
+        },
+        {
+          "exposedAs": [
+            ".Bar chart horizontal "
+          ],
+          "key": "b6adaf3fbffbab977a514a8e00cc048523afe24d",
+          "name": ".Bar chart horizontal ",
+          "properties": {
+            "Line 1": {
+              "type": "BOOLEAN"
+            },
+            "Y axis title": {
+              "type": "BOOLEAN"
+            },
+            "Data 1": {
+              "type": "BOOLEAN"
+            },
+            "Data 2": {
+              "type": "BOOLEAN"
+            },
+            "Data 3": {
+              "type": "BOOLEAN"
+            },
+            "Data 4": {
+              "type": "BOOLEAN"
+            },
+            "Show X title": {
+              "type": "BOOLEAN"
+            },
+            "Line 2": {
+              "type": "BOOLEAN"
+            },
+            "Line 3": {
+              "type": "BOOLEAN"
+            },
+            "Line 4": {
+              "type": "BOOLEAN"
+            }
+          }
+        }
+      ]
+    },
+    "Donut chart": {
+      "key": "1e38854162ca35f39c5c905e74cbc861e98f978f",
+      "nodeId": "2782:13319",
+      "pattern": "Pattern 2",
+      "variantCount": 1,
+      "status": "Verified live. Standalone COMPONENT (no variant set). Exposed sub-instances: .Header, state_message, .Donut chart. Props: Legend/KPI (boolean). Page also holds a private '.Donut chart' helper component, not registered separately.",
+      "auditedDate": "2026-08-26",
+      "exposedSubComponents": [
+        {
+          "exposedAs": [
+            ".Header"
+          ],
+          "key": "332239b3ca48614e11ac092aec30ac2835435dc0",
+          "name": ".Header",
+          "properties": {
+            "select Filters types": {
+              "type": "INSTANCE_SWAP"
+            },
+            "Filters": {
+              "type": "BOOLEAN"
+            }
+          }
+        },
+        {
+          "exposedAs": [
+            "state_message"
+          ],
+          "key": "a2901bf826e653d60ad67c9079424d4b630016d6",
+          "name": "state_message",
+          "properties": {
+            "Type": {
+              "type": "VARIANT",
+              "options": [
+                "Information",
+                "Warning",
+                "Helper",
+                "Error",
+                "Success"
+              ]
+            }
+          }
+        },
+        {
+          "exposedAs": [
+            ".Donut chart"
+          ],
+          "key": "c7d73dd441f4b5956be9aea050a80c9b9e7dc7f5",
+          "name": ".Donut chart",
+          "properties": {
+            "Data 5": {
+              "type": "BOOLEAN"
+            },
+            "Data 4": {
+              "type": "BOOLEAN"
+            },
+            "Data 3": {
+              "type": "BOOLEAN"
+            },
+            "Label": {
+              "type": "BOOLEAN"
+            },
+            "Value": {
+              "type": "BOOLEAN"
+            }
+          }
+        }
+      ]
+    },
+    "Line chart": {
+      "key": "d27843e26ea7b70a46f91b9881e50f0de672bdfb",
+      "nodeId": "4546:54628",
+      "pattern": "Pattern 2",
+      "variantCount": 1,
+      "status": "Verified live. Standalone COMPONENT (no variant set). Exposed sub-instances: Header, Filters, Grid, .Line chart data, Legend. Props: Legend/Header (boolean). Page also holds several private helper sets (.Header, .filters, .Legend, .Grid, .Dot, .Line chart data), not registered separately.",
+      "auditedDate": "2026-08-26",
+      "exposedSubComponents": [
+        {
+          "exposedAs": [
+            "Header"
+          ],
+          "key": "ca3902f3b109f4a4786f9132835806c45a53e042",
+          "name": ".Header",
+          "properties": {
+            "Filters": {
+              "type": "BOOLEAN"
+            },
+            "Description": {
+              "type": "BOOLEAN"
+            }
+          }
+        },
+        {
+          "exposedAs": [
+            "Filters"
+          ],
+          "key": "86191dc25127a3e7f764b8ffb804061f13aeebf4",
+          "name": ".filters",
+          "properties": {
+            "Amount": {
+              "type": "VARIANT",
+              "options": [
+                "1",
+                "2",
+                "2+"
+              ]
+            }
+          }
+        },
+        {
+          "exposedAs": [
+            "Grid"
+          ],
+          "key": "8eb0fd6e00aa0d474f68547436ec866fabb1865b",
+          "name": ".Grid",
+          "properties": {
+            "Vertical axis title": {
+              "type": "BOOLEAN"
+            },
+            "Horizontal axis title": {
+              "type": "BOOLEAN"
+            },
+            "Vertical axis labels": {
+              "type": "BOOLEAN"
+            },
+            "Line 6": {
+              "type": "BOOLEAN"
+            },
+            "Line 7": {
+              "type": "BOOLEAN"
+            },
+            "Line 8": {
+              "type": "BOOLEAN"
+            },
+            "Horizontal grid": {
+              "type": "BOOLEAN"
+            },
+            "Vertical grid": {
+              "type": "BOOLEAN"
+            },
+            "Col. 6": {
+              "type": "BOOLEAN"
+            },
+            "Col. 5": {
+              "type": "BOOLEAN"
+            },
+            "Horizontal axis labels": {
+              "type": "BOOLEAN"
+            }
+          }
+        },
+        {
+          "exposedAs": [
+            ".Line chart data"
+          ],
+          "key": "298246e1c92a16bb15890e75baedc1f1f2ee45b1",
+          "name": ".Line chart data",
+          "properties": {
+            "Dots": {
+              "type": "BOOLEAN"
+            },
+            "Data 2 (yellow)": {
+              "type": "BOOLEAN"
+            },
+            "Data 3 (green)": {
+              "type": "BOOLEAN"
+            },
+            "Highlight": {
+              "type": "BOOLEAN"
+            },
+            "Data": {
+              "type": "VARIANT",
+              "options": [
+                "Filled"
+              ]
+            }
+          }
+        },
+        {
+          "exposedAs": [
+            "Legend"
+          ],
+          "key": "c8b3a1d00cbde6dd8516a049097a2d3ae6afaf60",
+          "name": ".Legend",
+          "properties": {
+            "Legend 3": {
+              "type": "BOOLEAN"
+            },
+            "Interactive": {
+              "type": "VARIANT",
+              "options": [
+                "OFF",
+                "ON"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "KPI": {
+      "key": "16e4d980776106384ed729c205b0d697ac3227ee",
+      "nodeId": "2782:15102",
+      "pattern": "Pattern 2",
+      "variantCount": 2,
+      "status": "Verified live. Exposed sub-instance: state_message. Props: Show additional message (boolean), Additional message (instance-swap, two preferred COMPONENT_SET values), Alignment (Vertical/Horizontal).",
+      "auditedDate": "2026-08-26",
+      "exposedSubComponents": [
+        {
+          "exposedAs": [
+            "state_message"
+          ],
+          "key": "a2901bf826e653d60ad67c9079424d4b630016d6",
+          "name": "state_message",
+          "properties": {
+            "Type": {
+              "type": "VARIANT",
+              "options": [
+                "Information",
+                "Warning",
+                "Helper",
+                "Error",
+                "Success"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "Breadcrumb": {
+      "key": "09c6f2f0f7e42eb813530c544578f940f7692800",
+      "nodeId": "20:79283",
+      "pattern": "Pattern 1",
+      "variantCount": 3,
+      "status": "Verified live. No exposed instances. Props: 6 individual 'Show Link N' booleans, Hidden data (No/Middle/Begin).",
+      "auditedDate": "2026-08-26"
+    },
+    "Date Field": {
+      "key": "97765b8a2b46548f2e6c04396aa81b060674faba",
+      "nodeId": "2893:66432",
+      "pattern": "Pattern 1",
+      "variantCount": 32,
+      "status": "Verified live. No exposed instances. Props: Optional/Tooltip/Required/State Message/Helper Text/Clear icon (booleans), Platform (Web-iOS/Android), State (Default/Hover/Active/Disabled), Content (Empty/Filled), Error (No/Yes). Distinct sibling pattern from 'Date Picker' on the same page — both registered separately, not a duplicate.",
+      "auditedDate": "2026-08-26"
+    },
+    "Date Picker": {
+      "key": "f41432798da2e1317d65b412e8a9bc29cbf8e4a8",
+      "nodeId": "2893:66973",
+      "pattern": "Pattern 1",
+      "variantCount": 5,
+      "status": "Verified live. No exposed instances. Props: Clear button / Buttons (only for breakpoint XXS-XS) (booleans), Platform (Android/iOS/Web), Type (Calendar/Months/Years). Distinct sibling pattern from 'Date Field' on the same page — both registered separately, not a duplicate.",
+      "auditedDate": "2026-08-26"
+    },
+    "Feedback Bar": {
+      "key": "0c888b5591b12a8d39ae7a0a42e664df7fae3689",
+      "nodeId": "21:31125",
+      "pattern": "Pattern 2",
+      "variantCount": 4,
+      "status": "Verified live. 22 exposed sub-instances (.base_button_group, two distinct keys). Props: select Illustration (instance-swap), Pre-title/Illustration (booleans), Orientation (Horizontal/Vertical), Container (NO/YES).",
+      "auditedDate": "2026-08-26",
+      "exposedSubComponents": [
+        {
+          "exposedAs": [
+            ".base_button_group"
+          ],
+          "key": "ae5436847d1178b6218ddcd92eddd91156be5c13",
+          "name": ".base_button_group",
+          "properties": {
+            "Type": {
+              "type": "VARIANT",
+              "options": [
+                "Text",
+                "Icon text",
+                "Icon"
+              ]
+            },
+            "State": {
+              "type": "VARIANT",
+              "options": [
+                "Default",
+                "Hover",
+                "Pressed",
+                "Disabled"
+              ]
+            },
+            "Selected": {
+              "type": "VARIANT",
+              "options": [
+                "True",
+                "False"
+              ]
+            }
+          }
+        },
+        {
+          "exposedAs": [
+            ".base_button_group"
+          ],
+          "key": "de94fa8f7a9bab4395a5422c641fb0ab629e471c",
+          "name": ".base_button_group",
+          "properties": {
+            "Type": {
+              "type": "VARIANT",
+              "options": [
+                "Text",
+                "Icon text",
+                "Icon"
+              ]
+            },
+            "State": {
+              "type": "VARIANT",
+              "options": [
+                "Default",
+                "Hover",
+                "Pressed",
+                "Disabled"
+              ]
+            },
+            "Selected": {
+              "type": "VARIANT",
+              "options": [
+                "True",
+                "False"
+              ]
+            }
+          }
+        },
+        {
+          "exposedAs": [
+            "Feedback"
+          ],
+          "key": "384ce001a7ab17b8c39b373823e5205eeb621d99",
+          "name": ".vertical_feedback",
+          "properties": {
+            "Pre-title": {
+              "type": "BOOLEAN"
+            },
+            "Illustration": {
+              "type": "BOOLEAN"
+            },
+            "select Illustration": {
+              "type": "INSTANCE_SWAP"
+            }
+          }
+        }
+      ]
+    },
+    "Filter bar": {
+      "key": "f0c6967f99c19d0ccd04f9f7794e519b732c4daf",
+      "nodeId": "2240:119077",
+      "pattern": "Pattern 2",
+      "variantCount": 8,
+      "status": "Verified live. 22 exposed sub-instances (filter_01..06). Props: 6 'Show filter_0N' booleans, Show button (boolean), Device (Desktop/Tablet/Mobile/Mobile 2), Size (40/48). Page also holds sibling patterns 'Filter button' and 'Filter dropdown container', both registered separately.",
+      "auditedDate": "2026-08-26",
+      "exposedSubComponents": [
+        {
+          "exposedAs": [
+            "filter_01"
+          ],
+          "key": "caa6e85ffc1dcd733432a46d244265d426ead708",
+          "name": "Filter button",
+          "properties": {
+            "State": {
+              "type": "VARIANT",
+              "options": [
+                "Default",
+                "Hover",
+                "Pressed",
+                "Disabled"
+              ]
+            },
+            "Active": {
+              "type": "VARIANT",
+              "options": [
+                "No",
+                "Yes"
+              ]
+            },
+            "Alignment": {
+              "type": "VARIANT",
+              "options": [
+                "Center",
+                "Left"
+              ]
+            },
+            "Interaction": {
+              "type": "VARIANT",
+              "options": [
+                "Opens modal",
+                "Opens dropdown",
+                "Boolean"
+              ]
+            },
+            "Size": {
+              "type": "VARIANT",
+              "options": [
+                "40",
+                "48"
+              ]
+            }
+          }
+        },
+        {
+          "exposedAs": [
+            "filter_02",
+            "filter_03",
+            "filter_04",
+            "filter_05",
+            "filter_06"
+          ],
+          "key": "06ad2ae997c2d503bff32f7b1f31ac9fd0c357c6",
+          "name": "Filter button",
+          "properties": {
+            "State": {
+              "type": "VARIANT",
+              "options": [
+                "Default",
+                "Hover",
+                "Pressed",
+                "Disabled"
+              ]
+            },
+            "Active": {
+              "type": "VARIANT",
+              "options": [
+                "No",
+                "Yes"
+              ]
+            },
+            "Alignment": {
+              "type": "VARIANT",
+              "options": [
+                "Center",
+                "Left"
+              ]
+            },
+            "Interaction": {
+              "type": "VARIANT",
+              "options": [
+                "Opens modal",
+                "Opens dropdown",
+                "Boolean"
+              ]
+            },
+            "Size": {
+              "type": "VARIANT",
+              "options": [
+                "40",
+                "48"
+              ]
+            }
+          }
+        },
+        {
+          "exposedAs": [
+            "filter_01"
+          ],
+          "key": "385f282b38b843c81dc53271adb20846c1bbf7ef",
+          "name": "Filter button",
+          "properties": {
+            "State": {
+              "type": "VARIANT",
+              "options": [
+                "Default",
+                "Hover",
+                "Pressed",
+                "Disabled"
+              ]
+            },
+            "Active": {
+              "type": "VARIANT",
+              "options": [
+                "No",
+                "Yes"
+              ]
+            },
+            "Alignment": {
+              "type": "VARIANT",
+              "options": [
+                "Center",
+                "Left"
+              ]
+            },
+            "Interaction": {
+              "type": "VARIANT",
+              "options": [
+                "Opens modal",
+                "Opens dropdown",
+                "Boolean"
+              ]
+            },
+            "Size": {
+              "type": "VARIANT",
+              "options": [
+                "40",
+                "48"
+              ]
+            }
+          }
+        },
+        {
+          "exposedAs": [
+            "filter_02",
+            "filter_03",
+            "filter_04",
+            "filter_05",
+            "filter_06"
+          ],
+          "key": "9266cea7b29ec58688adc09289701c0aa5f3f99c",
+          "name": "Filter button",
+          "properties": {
+            "State": {
+              "type": "VARIANT",
+              "options": [
+                "Default",
+                "Hover",
+                "Pressed",
+                "Disabled"
+              ]
+            },
+            "Active": {
+              "type": "VARIANT",
+              "options": [
+                "No",
+                "Yes"
+              ]
+            },
+            "Alignment": {
+              "type": "VARIANT",
+              "options": [
+                "Center",
+                "Left"
+              ]
+            },
+            "Interaction": {
+              "type": "VARIANT",
+              "options": [
+                "Opens modal",
+                "Opens dropdown",
+                "Boolean"
+              ]
+            },
+            "Size": {
+              "type": "VARIANT",
+              "options": [
+                "40",
+                "48"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "Filter button": {
+      "key": "ff5f98edefbd2933e0b2da3335158a03ebc63b2a",
+      "nodeId": "2240:119093",
+      "pattern": "Pattern 1",
+      "variantCount": 96,
+      "status": "Verified live. No exposed instances. Props: State (Default/Hover/Pressed/Disabled), Active (No/Yes), Alignment (Center/Left), Interaction (Opens modal/Opens dropdown/Boolean), Size (40/48). Sibling pattern to 'Filter bar' on the same page, registered separately.",
+      "auditedDate": "2026-08-26"
+    },
+    "Filter dropdown container": {
+      "key": "b70401e806bf4ccdf4a09173ff6fc97f05a26175",
+      "nodeId": "2867:982",
+      "pattern": "Pattern 1",
+      "variantCount": 1,
+      "status": "Verified live. Standalone COMPONENT, no variants, no componentPropertyDefinitions, no exposed instances. Sibling pattern to 'Filter bar' on the same page, registered separately.",
+      "auditedDate": "2026-08-26"
+    },
+    "Footer": {
+      "key": "69882bc9ec9270cec2eb046c8be4ddb7a5585be3",
+      "nodeId": "20:100245",
+      "pattern": "Pattern 1",
+      "variantCount": 30,
+      "status": "Verified live. No exposed instances. Props: Brand (6 brands), Breakpoint (5 sizes). Page also holds private helper sets (.base_footer, .item_entry_L1, .item_content), not registered separately.",
+      "auditedDate": "2026-08-26"
+    },
+    "Info State": {
+      "key": "239da48acaf21a51157d2e25657e0b5397cc9d27",
+      "nodeId": "2240:119466",
+      "pattern": "Pattern 2",
+      "variantCount": 3,
+      "status": "Verified live. 3 exposed sub-instances (.Content). Props: Content/Buttons/Tertiary Button (booleans), Device (Phone/Tablet/Desktop).",
+      "auditedDate": "2026-08-26",
+      "exposedSubComponents": [
+        {
+          "exposedAs": [
+            ".Content"
+          ],
+          "key": "e897eeda698213a5799260b247e0970049768393",
+          "name": ".Content",
+          "properties": {
+            "Illustration Swap": {
+              "type": "INSTANCE_SWAP"
+            },
+            "Icon Swap": {
+              "type": "INSTANCE_SWAP"
+            },
+            "Content": {
+              "type": "VARIANT",
+              "options": [
+                "Icon",
+                "Illustration"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "Media Upload": {
+      "key": "d77fc0f7c3b61b9e0447bca80f8fdfdedc223d39",
+      "nodeId": "20:40224",
+      "pattern": "Pattern 2",
+      "variantCount": 41,
+      "status": "Verified live. 92 exposed sub-instances (Header, .upload_content, various keys). Props: Header/Tag/File Counter/Filename/Drag indicator (booleans), Breakpoint (4), Platform (3), State (Default/Hover/Active/Disabled/Loadiing/Pressed — 'Loadiing' typo preserved verbatim, matches live Figma), Content (Empty/Filled with Image/Filled with PDF), Error (No/Yes), Clickable (Yes/No).",
+      "auditedDate": "2026-08-26",
+      "exposedSubComponents": [
+        {
+          "exposedAs": [
+            "Header"
+          ],
+          "key": "9ce3a0b7e7fcc2dadd9f7cb4da63bfe2802bf5c5",
+          "name": ".Header form",
+          "properties": {
+            "Required": {
+              "type": "BOOLEAN"
+            },
+            "Optional": {
+              "type": "BOOLEAN"
+            },
+            "Tooltip": {
+              "type": "BOOLEAN"
+            },
+            "Helper text": {
+              "type": "BOOLEAN"
+            }
+          }
+        },
+        {
+          "exposedAs": [
+            ".upload_content"
+          ],
+          "key": "6905dedb2b59301bf94540cc59a3539aa8b1bc8c",
+          "name": ".upload_content",
+          "properties": {
+            "Illustration": {
+              "type": "BOOLEAN"
+            },
+            "Illustration Swap Error": {
+              "type": "INSTANCE_SWAP"
+            },
+            "Illustration Swap": {
+              "type": "INSTANCE_SWAP"
+            },
+            "Type": {
+              "type": "VARIANT",
+              "options": [
+                "Add more",
+                "Error",
+                "Drag & Drop",
+                "First Upload",
+                "File"
+              ]
+            },
+            "Breakpoint": {
+              "type": "VARIANT",
+              "options": [
+                "XXS - SM (Phone)",
+                "MD - XXXL (Tablet & Desktop)",
+                "XL - XXXL (Desktop)",
+                "XXS - XXXL (All)"
+              ]
+            }
+          }
+        },
+        {
+          "exposedAs": [
+            ".spinner"
+          ],
+          "key": "17f500baaba19e295fca5796c967293ec0c7ffd7",
+          "name": ".spinner",
+          "properties": {
+            "Plattform": {
+              "type": "VARIANT",
+              "options": [
+                "Android",
+                "iOS"
+              ]
+            },
+            "Size": {
+              "type": "VARIANT",
+              "options": [
+                "L",
+                "S"
+              ]
+            },
+            "Style": {
+              "type": "VARIANT",
+              "options": [
+                "On-light",
+                "On-dark"
+              ]
+            }
+          }
+        },
+        {
+          "exposedAs": [
+            "Floating Button"
+          ],
+          "key": "154a4df80355d166170d41c211a8f9c667cd92e8",
+          "name": ".floating_button",
+          "properties": {
+            "Type": {
+              "type": "VARIANT",
+              "options": [
+                "Menu",
+                "Remove"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "Mega menus": {
+      "key": "1ef51d29de3ebbaa73a3a7a9245c63213316779d",
+      "nodeId": "20:58328",
+      "pattern": "Pattern 1",
+      "variantCount": 96,
+      "status": "Verified live. No exposed instances. Props: Brand (7), Breakpoint (3), Menu (per-brand menu-section variant, ~30 options). Page also holds private helper sets (.base_mega menus, .item_entry_l2, .item_service, .item_content), not registered separately.",
+      "auditedDate": "2026-08-26"
+    },
+    "Menus": {
+      "key": "acbd5a28268c0f85727efba97e87685f3e047c51",
+      "nodeId": "2213:91126",
+      "pattern": "Pattern 1",
+      "variantCount": 7,
+      "status": "Verified live. No exposed instances. Props: Type (Default/Simple), Content (Profil/Language), Brand (6). Page also holds private helper sets (.item_sub row profil, .item_row language, .item_row profil, .base_menu profil), not registered separately.",
+      "auditedDate": "2026-08-26"
+    },
+    "Navigation bar": {
+      "key": "30c1505a2842dec214a0784dadf554f53def6acb",
+      "nodeId": "3138:71933",
+      "pattern": "Pattern 1",
+      "variantCount": 1,
+      "status": "Verified live. No exposed instances. Single-variant set (Property 1=Default) — likely an early-stage/placeholder pattern definition. Page also holds private helper sets (.Entry_L1, .Entries, .Icon_Button), not registered separately.",
+      "auditedDate": "2026-08-26"
+    },
+    "Top Bar": {
+      "key": "9f7041c981cc4f727eb8967bbfad950861c44f30",
+      "nodeId": "20:110524",
+      "pattern": "Pattern 2",
+      "variantCount": 26,
+      "status": "Verified live. 6 exposed sub-instances (Text Button, two distinct keys). Props: Icon Left/Icon Right 1/Icon Right 2/Title/Badge/Status bar (booleans), Plattform ('Plattform' typo preserved verbatim, matches live Figma — Android/iOS/Web), Style (Default/On Picture), Size (Medium/Small), Left (Icons/Button), Right (Icons/Button/Empty).",
+      "auditedDate": "2026-08-26",
+      "exposedSubComponents": [
+        {
+          "exposedAs": [
+            "Text Button"
+          ],
+          "key": "d4582c7925ba7246d9a4ec29cc8ffb93f5478330",
+          "name": "Text Button",
+          "properties": {
+            "Select Icon": {
+              "type": "INSTANCE_SWAP"
+            },
+            "Platform": {
+              "type": "VARIANT",
+              "options": [
+                "Android",
+                "Web / iOS"
+              ]
+            },
+            "Type": {
+              "type": "VARIANT",
+              "options": [
+                "Default",
+                "Danger"
+              ]
+            },
+            "Style": {
+              "type": "VARIANT",
+              "options": [
+                "Default",
+                "Inverted"
+              ]
+            },
+            "Size": {
+              "type": "VARIANT",
+              "options": [
+                "14px",
+                "16px"
+              ]
+            },
+            "State": {
+              "type": "VARIANT",
+              "options": [
+                "Default",
+                "Hover",
+                "Pressed",
+                "Disabled"
+              ]
+            },
+            "Icon": {
+              "type": "VARIANT",
+              "options": [
+                "No Icon",
+                "Left",
+                "Right",
+                "Icon only"
+              ]
+            }
+          }
+        },
+        {
+          "exposedAs": [
+            "Text Button"
+          ],
+          "key": "4b1fc65d1dbade02183151109b16fb9329609ed1",
+          "name": "Text Button",
+          "properties": {
+            "Select Icon": {
+              "type": "INSTANCE_SWAP"
+            },
+            "Platform": {
+              "type": "VARIANT",
+              "options": [
+                "Android",
+                "Web / iOS"
+              ]
+            },
+            "Type": {
+              "type": "VARIANT",
+              "options": [
+                "Default",
+                "Danger"
+              ]
+            },
+            "Style": {
+              "type": "VARIANT",
+              "options": [
+                "Default",
+                "Inverted"
+              ]
+            },
+            "Size": {
+              "type": "VARIANT",
+              "options": [
+                "14px",
+                "16px"
+              ]
+            },
+            "State": {
+              "type": "VARIANT",
+              "options": [
+                "Default",
+                "Hover",
+                "Pressed",
+                "Disabled"
+              ]
+            },
+            "Icon": {
+              "type": "VARIANT",
+              "options": [
+                "No Icon",
+                "Left",
+                "Right",
+                "Icon only"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "Wizard": {
+      "key": "db53c9b6a314015cf875fef38f223a0200185445",
+      "nodeId": "20:114293",
+      "pattern": "Pattern 2",
+      "variantCount": 2,
+      "status": "Verified live. 40 exposed sub-instances (Top line/Bottom line). Props: Arrow Up/Down (booleans), Step 1-10 (booleans), Numbered List (Yes/No). Page also holds private helper sets (.lineWizard, .iconWizard, .stepWizard), not registered separately.",
+      "auditedDate": "2026-08-26",
+      "exposedSubComponents": [
+        {
+          "exposedAs": [
+            "Top line",
+            "Bottom line"
+          ],
+          "key": "42e5a1d316155fc952bfebebb7a5c2eedcd0c416",
+          "name": ".lineWizard",
+          "properties": {
+            "Status": {
+              "type": "VARIANT",
+              "options": [
+                "Disabled",
+                "Done",
+                "Start or End",
+                "To Do"
+              ]
+            }
+          }
+        },
+        {
+          "exposedAs": [
+            "Bottom line",
+            "Top line"
+          ],
+          "key": "70f5c65f9fb8ffbd28974d513fa349cc377b66f0",
+          "name": ".lineWizard",
+          "properties": {
+            "Status": {
+              "type": "VARIANT",
+              "options": [
+                "Disabled",
+                "Done",
+                "Start or End",
+                "To Do"
+              ]
+            }
+          }
+        },
+        {
+          "exposedAs": [
+            "Bottom line",
+            "Top line"
+          ],
+          "key": "7b4d38b552b84d9191ec1150ccfaf961d8c96c2c",
+          "name": ".lineWizard",
+          "properties": {
+            "Status": {
+              "type": "VARIANT",
+              "options": [
+                "Disabled",
+                "Done",
+                "Start or End",
+                "To Do"
+              ]
+            }
+          }
+        },
+        {
+          "exposedAs": [
+            "Bottom line",
+            "Top line"
+          ],
+          "key": "1ea5c06606aba6c20f9dc2557ecce6a11d619747",
+          "name": ".lineWizard",
+          "properties": {
+            "Status": {
+              "type": "VARIANT",
+              "options": [
+                "Disabled",
+                "Done",
+                "Start or End",
+                "To Do"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  }
+}

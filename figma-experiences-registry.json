@@ -1,0 +1,838 @@
+{
+  "components": {
+    "Estimation card": {
+      "key": "3310e65968e47868187272bd273ad44dee77caee",
+      "nodeId": "2290:9345",
+      "pattern": "Pattern 2",
+      "variantCount": 16,
+      "status": "Verified live. 91 exposed sub-instances (Variable tag, .price_range, .confidence_indicator, etc.). Props: Size (Large/Medium/Small/Horizontal), State (Collapsed/Expanded), Type (Selling/Renting/Sell and Rent price). Page also holds private helper sets (.price_range, .confidence_indicator, .estimation_details, .estimation_feedback_module), not registered separately.",
+      "auditedDate": "2026-08-26",
+      "exposedSubComponents": [
+        {
+          "exposedAs": [
+            "Variable tag"
+          ],
+          "key": "c525fa12205af7bd64d3652e9acd532a85edb753",
+          "name": ".Alerts - Tag",
+          "properties": {
+            "Style": {
+              "type": "VARIANT",
+              "options": [
+                "Accent",
+                "Isometric",
+                "Matilde",
+                "None"
+              ]
+            },
+            "Size": {
+              "type": "VARIANT",
+              "options": [
+                "Large",
+                "Small"
+              ]
+            },
+            "Type": {
+              "type": "VARIANT",
+              "options": [
+                "Request",
+                "Variable"
+              ]
+            }
+          }
+        },
+        {
+          "exposedAs": [
+            ".price_range"
+          ],
+          "key": "c4b5ac9c95eb32724df440540dccf0a817b542ff",
+          "name": ".price_range",
+          "properties": {
+            "Range type": {
+              "type": "VARIANT",
+              "options": [
+                "Text",
+                "Icons L",
+                "Icons M",
+                "Icon S"
+              ]
+            }
+          }
+        },
+        {
+          "exposedAs": [
+            ".confidence_indicator"
+          ],
+          "key": "acbacf0676b9ce90d650633f26e9c355d9895445",
+          "name": ".confidence_indicator",
+          "properties": {
+            "Property 1": {
+              "type": "VARIANT",
+              "options": [
+                "High",
+                "Good",
+                "Medium",
+                "Mediocre",
+                "Low"
+              ]
+            }
+          }
+        },
+        {
+          "exposedAs": [
+            "Tabs"
+          ],
+          "key": "a117f1a7e7c8eb2a97233ecd65e377db067b0d62",
+          "name": "Tabs",
+          "properties": {
+            "Elements": {
+              "type": "VARIANT",
+              "options": [
+                "2",
+                "3",
+                "4",
+                "5",
+                "N/A"
+              ]
+            },
+            "Type": {
+              "type": "VARIANT",
+              "options": [
+                "Compact",
+                "Default"
+              ]
+            },
+            "State": {
+              "type": "VARIANT",
+              "options": [
+                "Rest",
+                "Active",
+                "N/A"
+              ]
+            }
+          }
+        },
+        {
+          "exposedAs": [
+            ".base_tabs"
+          ],
+          "key": "57fa777316d317e5ab9518c7c9337571b0b3356f",
+          "name": ".base_tabs",
+          "properties": {
+            "Arrow Left": {
+              "type": "BOOLEAN"
+            },
+            "Arrow Right": {
+              "type": "BOOLEAN"
+            },
+            "Type": {
+              "type": "VARIANT",
+              "options": [
+                "Fill Container",
+                "Hug Content"
+              ]
+            },
+            "Alignment": {
+              "type": "VARIANT",
+              "options": [
+                "Left",
+                "Center"
+              ]
+            },
+            "Divider": {
+              "type": "VARIANT",
+              "options": [
+                "No",
+                "Yes"
+              ]
+            }
+          }
+        },
+        {
+          "exposedAs": [
+            ".item_tabs"
+          ],
+          "key": "049773c80f1054b86d09fffcb904e5800682cb44",
+          "name": ".item_tabs",
+          "properties": {
+            "Icon (instance-swap)": {
+              "type": "INSTANCE_SWAP"
+            },
+            "Badge": {
+              "type": "BOOLEAN"
+            },
+            "State": {
+              "type": "VARIANT",
+              "options": [
+                "Default",
+                "Pressed",
+                "Hover",
+                "Disabled"
+              ]
+            },
+            "Active": {
+              "type": "VARIANT",
+              "options": [
+                "False",
+                "True"
+              ]
+            },
+            "Icon": {
+              "type": "VARIANT",
+              "options": [
+                "Left",
+                "None",
+                "Top"
+              ]
+            }
+          }
+        },
+        {
+          "exposedAs": [
+            ".estimation_details"
+          ],
+          "key": "d49a9d02fef420f21d6058793ba989ad6efdef21",
+          "name": ".estimation_details",
+          "properties": {
+            "Type": {
+              "type": "VARIANT",
+              "options": [
+                "Icons",
+                "Text"
+              ]
+            }
+          }
+        },
+        {
+          "exposedAs": [
+            ".estimation_feedback_module"
+          ],
+          "key": "c3a21fc5b4946f67ef51e36648d87fc2467b00dd",
+          "name": ".estimation_feedback_module",
+          "properties": {
+            "Type": {
+              "type": "VARIANT",
+              "options": [
+                "Thumbs score 12px text",
+                "Thumbs score 14px text",
+                "Form"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "Floor selection": {
+      "key": "9d2169bae769953bda3e9468e0f4aa33bdb1ed43",
+      "nodeId": "2610:13989",
+      "pattern": "Pattern 1",
+      "variantCount": 6,
+      "status": "Verified live. No exposed instances. Props: Floor type, State, Error.",
+      "auditedDate": "2026-08-26"
+    },
+    "Listing Card": {
+      "key": "8df4cda2a41c3a4a527f69850ff42228a5d6cf2b",
+      "nodeId": "5:9439",
+      "pattern": "Pattern 2",
+      "variantCount": 79,
+      "status": "Verified live. 602 exposed sub-instances — the largest composed pattern found so far. Props: several boolean slot toggles (Partner link, Actions, Title, Features, Location, Provider, Logo, Sponsorship, Additional info ribbon), plus Size, Domain, Platform, State, SEO text, Type of property. Page also holds ~12 private helper sets (.listing_card_image_slider, .listing_card_provider, .contact_person, .text_avatar, .Listing_info, .listing_favorite_CTAs, .SEO_text_block, .XXL_text_block, .Partner_link+DSA_(France_only), .New_build_units, .additional_info_ribbon (France only), .link_sub-brand, .exclusive_mandate_info), not registered separately. Also confirmed (by mainComponent key, not display name) to compose 6 of the 7 private list-item components from the '.Listings' page: .listing_tags_list (shown as \"Tags list\"), .listing_price_tag (\"Price tag\"), .listing_actions (\"Actions\"), .listing_title (\"Title\"), .listing_property_features (\"Property features\"), .listing_property_location (\"Property location\") — all renamed at the instance level; matched by key, not name.",
+      "auditedDate": "2026-08-26",
+      "exposedSubComponents": [
+        {
+          "exposedAs": "Tags list",
+          "key": "8e806e91f54e265e2fee654770236c65dbf2bd94",
+          "name": ".listing_tags_list",
+          "properties": {
+            "Nr. tags": {
+              "type": "VARIANT",
+              "options": [
+                "1",
+                "2",
+                "3"
+              ]
+            }
+          }
+        },
+        {
+          "exposedAs": "Price tag",
+          "key": "a996befb8fc11dccab52e997e2bda4e91da9cec8",
+          "name": ".listing_price_tag",
+          "properties": {
+            "€/ m², €/month": {
+              "type": "BOOLEAN"
+            },
+            "Size": {
+              "type": "VARIANT",
+              "options": [
+                "24 - Default",
+                "22",
+                "Price on request"
+              ]
+            }
+          }
+        },
+        {
+          "exposedAs": "Actions",
+          "key": "6335f9d832d9d10440f80c791f0cb12da07ae3dd",
+          "name": ".listing_actions",
+          "properties": {
+            "Nr. actions": {
+              "type": "VARIANT",
+              "options": [
+                "1",
+                "2"
+              ]
+            }
+          }
+        },
+        {
+          "exposedAs": "Title",
+          "key": "0256e229500b2d3c16f0db3fbf482437ced660f0",
+          "name": ".listing_title",
+          "properties": {
+            "AI enrichment": {
+              "type": "BOOLEAN"
+            },
+            "Modifier": {
+              "type": "BOOLEAN"
+            },
+            "Size": {
+              "type": "VARIANT",
+              "options": [
+                "16 - Default",
+                "14",
+                "24",
+                "22"
+              ]
+            }
+          }
+        },
+        {
+          "exposedAs": "Property features",
+          "key": "7833c95d116e771761fd55c49a072168742b7cf2",
+          "name": ".listing_property_features",
+          "properties": {
+            "Size": {
+              "type": "VARIANT",
+              "options": [
+                "12 - Default",
+                "14",
+                "16"
+              ]
+            },
+            "Icon": {
+              "type": "VARIANT",
+              "options": [
+                "True",
+                "False"
+              ]
+            },
+            "Nr Features": {
+              "type": "VARIANT",
+              "options": [
+                "3",
+                "4"
+              ]
+            }
+          }
+        },
+        {
+          "exposedAs": "Property location",
+          "key": "d94d85f277b2d50a066743275da4a5e2961eb941",
+          "name": ".listing_property_location",
+          "properties": {
+            "Size": {
+              "type": "VARIANT",
+              "options": [
+                "12 - Default",
+                "14",
+                "16"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "Listing summary": {
+      "key": "b1cd9e88a5bbaf26ed634da16b48b70febd2acb2",
+      "nodeId": "5:9663",
+      "pattern": "Pattern 2",
+      "variantCount": 2,
+      "status": "Verified live. 20 exposed sub-instances. Props: 6 numbered 'Content Slot N' booleans plus Tags list/Thumbnail/Actions/Helper text/Property features/Title/Property location/Price tag booleans, and Thumbnail position variant. Page also holds a private '.listing_summary_thumbnail' helper set, not registered separately. Also confirmed (by mainComponent key) to compose all 7 private list-item components from the '.Listings' page, including .listing_helper_text (shown as \"Helper text\") which Listing Card does not use.",
+      "auditedDate": "2026-08-26",
+      "exposedSubComponents": [
+        {
+          "exposedAs": "Tags list",
+          "key": "8e806e91f54e265e2fee654770236c65dbf2bd94",
+          "name": ".listing_tags_list",
+          "properties": {
+            "Nr. tags": {
+              "type": "VARIANT",
+              "options": [
+                "1",
+                "2",
+                "3"
+              ]
+            }
+          }
+        },
+        {
+          "exposedAs": "Price tag",
+          "key": "a996befb8fc11dccab52e997e2bda4e91da9cec8",
+          "name": ".listing_price_tag",
+          "properties": {
+            "€/ m², €/month": {
+              "type": "BOOLEAN"
+            },
+            "Size": {
+              "type": "VARIANT",
+              "options": [
+                "24 - Default",
+                "22",
+                "Price on request"
+              ]
+            }
+          }
+        },
+        {
+          "exposedAs": "Actions",
+          "key": "6335f9d832d9d10440f80c791f0cb12da07ae3dd",
+          "name": ".listing_actions",
+          "properties": {
+            "Nr. actions": {
+              "type": "VARIANT",
+              "options": [
+                "1",
+                "2"
+              ]
+            }
+          }
+        },
+        {
+          "exposedAs": "Title",
+          "key": "0256e229500b2d3c16f0db3fbf482437ced660f0",
+          "name": ".listing_title",
+          "properties": {
+            "AI enrichment": {
+              "type": "BOOLEAN"
+            },
+            "Modifier": {
+              "type": "BOOLEAN"
+            },
+            "Size": {
+              "type": "VARIANT",
+              "options": [
+                "16 - Default",
+                "14",
+                "24",
+                "22"
+              ]
+            }
+          }
+        },
+        {
+          "exposedAs": "Property features",
+          "key": "7833c95d116e771761fd55c49a072168742b7cf2",
+          "name": ".listing_property_features",
+          "properties": {
+            "Size": {
+              "type": "VARIANT",
+              "options": [
+                "12 - Default",
+                "14",
+                "16"
+              ]
+            },
+            "Icon": {
+              "type": "VARIANT",
+              "options": [
+                "True",
+                "False"
+              ]
+            },
+            "Nr Features": {
+              "type": "VARIANT",
+              "options": [
+                "3",
+                "4"
+              ]
+            }
+          }
+        },
+        {
+          "exposedAs": "Property location",
+          "key": "d94d85f277b2d50a066743275da4a5e2961eb941",
+          "name": ".listing_property_location",
+          "properties": {
+            "Size": {
+              "type": "VARIANT",
+              "options": [
+                "12 - Default",
+                "14",
+                "16"
+              ]
+            }
+          }
+        },
+        {
+          "exposedAs": "Helper text",
+          "key": "25b0494e982187d46750ba4aa92db3272f39b9b7",
+          "name": ".listing_helper_text",
+          "properties": {
+            "Size": {
+              "type": "VARIANT",
+              "options": [
+                "12 - Default",
+                "14",
+                "16"
+              ]
+            }
+          }
+        },
+        {
+          "exposedAs": "Thumbnail",
+          "key": null,
+          "name": ".listing_summary_thumbnail",
+          "properties": {
+            "Width": {
+              "type": "VARIANT",
+              "options": [
+                "64"
+              ]
+            },
+            "Aspect ratio": {
+              "type": "VARIANT",
+              "options": [
+                "1:1"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "Map template": {
+      "key": "052a62aaec09c43a06249149772e79f6ac0c693b",
+      "nodeId": "5747:16555",
+      "pattern": "Pattern 2",
+      "variantCount": 27,
+      "status": "Verified live. 243 exposed sub-instances. Props: CTA/Listing Card (booleans), Plateform ('Plateform' typo preserved verbatim, matches live Figma), Zoom level, Style. Lives on 'Map experience' page alongside several sibling map patterns (mapPinsV2_SL, mapPinsV2_IWT, Map Polygon, Map Polygon backdrop), each registered separately, and an explicitly deprecated '(❌ OUTDATED) mapPins' set — deliberately excluded, see audit-log.",
+      "auditedDate": "2026-08-26",
+      "exposedSubComponents": [
+        {
+          "exposedAs": [
+            ".Button 1",
+            ".Button 2"
+          ],
+          "key": "3b93c2dbc2c84caec586330319d2d74c628ce3c7",
+          "name": "❌ .base_floating_button_group (outdated)",
+          "properties": {
+            "Icon (instance-swap)": {
+              "type": "INSTANCE_SWAP"
+            },
+            "State": {
+              "type": "VARIANT",
+              "options": [
+                "Default",
+                "Hover",
+                "Pressed",
+                "Disabled"
+              ]
+            }
+          },
+          "note": "Underlying private component's own name carries an outdated marker live in Figma, preserved verbatim; not flagged for removal here since it's an internal slot, not a standalone registry entry."
+        },
+        {
+          "exposedAs": [
+            "Image Slider placeholder"
+          ],
+          "key": "9672fc4b24d4516179f66e6f0f1aec8d2f23b0b2",
+          "name": "Image Slider",
+          "properties": {
+            "Gradient top": {
+              "type": "BOOLEAN"
+            },
+            "Gradient bottom": {
+              "type": "BOOLEAN"
+            },
+            "Views tags": {
+              "type": "BOOLEAN"
+            },
+            "Platform": {
+              "type": "VARIANT",
+              "options": [
+                "Web",
+                "iOS/Android"
+              ]
+            },
+            "Device": {
+              "type": "VARIANT",
+              "options": [
+                "Phone",
+                "Desktop"
+              ]
+            },
+            "State": {
+              "type": "VARIANT",
+              "options": [
+                "Default",
+                "Hover",
+                "Disabled"
+              ]
+            },
+            "Corner Radius": {
+              "type": "VARIANT",
+              "options": [
+                "0",
+                "16"
+              ]
+            },
+            "Aspect Ratio": {
+              "type": "VARIANT",
+              "options": [
+                "4:3",
+                "3:2",
+                "16:9",
+                "21:9"
+              ]
+            }
+          }
+        },
+        {
+          "exposedAs": [
+            ".views_tags"
+          ],
+          "key": "5fb0ebae560337353144400237e16cdbede14cf6",
+          "name": ".views_tags",
+          "properties": {
+            "Boolean": {
+              "type": "BOOLEAN"
+            },
+            "Nr Tags": {
+              "type": "VARIANT",
+              "options": [
+                "1",
+                "2"
+              ]
+            }
+          }
+        },
+        {
+          "exposedAs": [
+            "Tags list"
+          ],
+          "key": "17b3d558f50061ea6a52ed679c191c5e9933a853",
+          "name": ".listing_tags_list",
+          "properties": {
+            "Nr. tags": {
+              "type": "VARIANT",
+              "options": [
+                "1",
+                "2",
+                "3"
+              ]
+            }
+          }
+        },
+        {
+          "exposedAs": [
+            "Tag"
+          ],
+          "key": "e514a0494aadcb8a83b0810c1f687acbd8974769",
+          "name": "Tag",
+          "properties": {
+            "Icon Left": {
+              "type": "BOOLEAN"
+            },
+            "Label": {
+              "type": "BOOLEAN"
+            },
+            "Select Icon (instance-swap)": {
+              "type": "INSTANCE_SWAP"
+            },
+            "Type": {
+              "type": "VARIANT",
+              "options": [
+                "Dark",
+                "Subdued",
+                "Primary",
+                "Secondary",
+                "Light",
+                "Error",
+                "Success",
+                "Information",
+                "Warning"
+              ]
+            },
+            "Font size": {
+              "type": "VARIANT",
+              "options": [
+                "14 (default)",
+                "12"
+              ]
+            },
+            "Hierarchy": {
+              "type": "VARIANT",
+              "options": [
+                "Weak",
+                "Strong"
+              ]
+            }
+          }
+        },
+        {
+          "exposedAs": [
+            "Actions"
+          ],
+          "key": "dc01119ec25e7ef5e44e55aaee67a7e9cfaef570",
+          "name": ".listing_actions",
+          "properties": {
+            "Nr. actions": {
+              "type": "VARIANT",
+              "options": [
+                "1",
+                "2"
+              ]
+            }
+          }
+        },
+        {
+          "exposedAs": [
+            "Property features"
+          ],
+          "key": "411cdbbd586f7bb281863d9602569e9a32ed1227",
+          "name": ".listing_property_features",
+          "properties": {
+            "Size": {
+              "type": "VARIANT",
+              "options": [
+                "12 - Default",
+                "14",
+                "16"
+              ]
+            },
+            "Icon": {
+              "type": "VARIANT",
+              "options": [
+                "True",
+                "False"
+              ]
+            },
+            "Nr Features": {
+              "type": "VARIANT",
+              "options": [
+                "3",
+                "4"
+              ]
+            }
+          }
+        },
+        {
+          "exposedAs": [
+            "Property location"
+          ],
+          "key": "ee2dca7224a92c3b74b2e4c64a2e0143d588fad5",
+          "name": ".listing_property_location",
+          "properties": {
+            "Size": {
+              "type": "VARIANT",
+              "options": [
+                "12 - Default",
+                "14",
+                "16"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "mapPinsV2_SL": {
+      "key": "0dfc1ca2bbfd5bb71a163e0bdcb2f6197ed6f95a",
+      "nodeId": "8664:56162",
+      "pattern": "Pattern 1",
+      "variantCount": 162,
+      "status": "Verified live. No exposed instances. Props: Location type, State, Status, Paid. Brand-specific successor to the deprecated '(❌ OUTDATED) mapPins' set (SeLoger variant) — sibling 'mapPinsV2_IWT' covers Immowelt, registered separately.",
+      "auditedDate": "2026-08-26"
+    },
+    "mapPinsV2_IWT": {
+      "key": "8b64dd3ad38e44b082a8f72445a2490d8b54fdc4",
+      "nodeId": "8664:56808",
+      "pattern": "Pattern 1",
+      "variantCount": 162,
+      "status": "Verified live. No exposed instances. Props: Location type, State, Status, Paid. Brand-specific successor to the deprecated '(❌ OUTDATED) mapPins' set (Immowelt variant) — sibling 'mapPinsV2_SL' covers SeLoger, registered separately.",
+      "auditedDate": "2026-08-26"
+    },
+    "Map Polygon": {
+      "key": "8b4224f8d304a24cdd868d5bf5fa3a24ca3cc42f",
+      "nodeId": "5764:29960",
+      "pattern": "Pattern 1",
+      "variantCount": 2,
+      "status": "Verified live. No exposed instances. Props: Type.",
+      "auditedDate": "2026-08-26"
+    },
+    "Map Polygon backdrop": {
+      "key": "3e3467acafc2d790441901bd225f8136f58d3774",
+      "nodeId": "5764:30072",
+      "pattern": "Pattern 1",
+      "variantCount": 5,
+      "status": "Verified live. No exposed instances. Props: Mode, Type.",
+      "auditedDate": "2026-08-26"
+    },
+    "Phone Number Field": {
+      "key": "d4f66a893de558ea18533458cc8983c78373afdc",
+      "nodeId": "3696:7931",
+      "pattern": "Pattern 2",
+      "variantCount": 52,
+      "status": "Verified live. 44 exposed sub-instances. Props: Platform, State, Text field, Error. Page also holds private helper sets (.country_selection, .flag, .animation-phonenumberfield), not registered separately.",
+      "auditedDate": "2026-08-26",
+      "exposedSubComponents": [
+        {
+          "exposedAs": [
+            ".header_form"
+          ],
+          "key": "86d03bf35f009ae492fde88f6580d8649432f592",
+          "name": ".header_form",
+          "properties": {
+            "Required": {
+              "type": "BOOLEAN"
+            },
+            "Optional": {
+              "type": "BOOLEAN"
+            },
+            "Tooltip": {
+              "type": "BOOLEAN"
+            },
+            "Helper text": {
+              "type": "BOOLEAN"
+            }
+          }
+        },
+        {
+          "exposedAs": [
+            "Icon Trailing"
+          ],
+          "key": "a5e460c768eb3fd8e77a1160303d97a80e3adb87",
+          "name": ".icon_button",
+          "properties": {
+            "Select icon trailing (instance-swap)": {
+              "type": "INSTANCE_SWAP"
+            },
+            "Type": {
+              "type": "VARIANT",
+              "options": [
+                "Button",
+                "Icon"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "Table": {
+      "key": "015ab049385f127e67df93e93e0cbc132dc7648e",
+      "nodeId": "6978:1218",
+      "pattern": "Pattern 1",
+      "variantCount": 12,
+      "status": "Verified live, on the 'Table template' page. No exposed instances. Props: Horizontal scroll (boolean), Device, Selectable rows, Expandable row, Full width. Page also holds private helper sets (.table_header_cell, .table_footer), not registered separately.",
+      "auditedDate": "2026-08-26"
+    }
+  }
+}

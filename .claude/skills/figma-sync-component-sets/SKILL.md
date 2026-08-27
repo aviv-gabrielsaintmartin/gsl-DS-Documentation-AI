@@ -1,15 +1,17 @@
 ---
 name: figma-sync-component-sets
-description: Extract component/pattern/experience identity, keys, node IDs, variant properties, and Pattern 1/2 classification from any GSL Figma library (Components, Patterns, or Experiences) into the matching local registry. Triggers on requests to document/update/sync/audit a component, pattern, or experience's Figma props, in any of the three GSL library tiers.
+description: Extract component/pattern/experience/foundations-component identity, keys, node IDs, variant properties, and Pattern 1/2 classification from any GSL Figma library (Components, Patterns, Experiences, or the real components inside Foundations) into the matching local registry. Triggers on requests to document/update/sync/audit a component, pattern, or experience's Figma props, in any of the four GSL library tiers.
 metadata:
   author: Aviv
-  version: "1.0.0"
+  version: "1.1.0"
   status: production
 ---
 
 # Figma Component / Pattern / Experience Sync
 
-Generalized 2026-08-26 from the original Components-only `figma-sync-components` skill, after confirming live that the Patterns library uses identical Figma primitives — `COMPONENT_SET`/`COMPONENT` nodes, variant properties, and the same public/private dot-prefix convention already seen in Components (e.g. Patterns' "Burger menu" page: a public `Burger menu` set built from private `.base_burger menu` and `.base_profil` helper sets). One skill, one `known-traps.md`, covering all three node-bearing GSL library tiers — `components`, `patterns`, `experiences` — instead of tripling near-identical logic. Confluence is never read or written; the matching `figma-*-registry.json` file (repo root) is the sole source of truth for each tier.
+Generalized 2026-08-26 from the original Components-only `figma-sync-components` skill, after confirming live that the Patterns library uses identical Figma primitives — `COMPONENT_SET`/`COMPONENT` nodes, variant properties, and the same public/private dot-prefix convention already seen in Components (e.g. Patterns' "Burger menu" page: a public `Burger menu` set built from private `.base_burger menu` and `.base_profil` helper sets). One skill, one `known-traps.md`, covering all node-bearing GSL library tiers — `components`, `patterns`, `experiences`, and (added 2026-08-27) `foundations` — instead of tripling near-identical logic. Confluence is never read or written; the matching `figma-*-registry.json` file (repo root) is the sole source of truth for each tier.
+
+**Foundations is a mixed-content library** — it also holds Tokens (variables/styles, `figma-sync-tokens`'s territory) and Icons (a separate flat inventory, not covered by this skill). This skill's `foundations` tier only covers the real, named components living outside Icons and Illustrations: `Flag`, `Favicon`, `Image Ratio`, `Brand Logo`, `Brand App Icons`. Illustrations (100+ COMPONENT_SETs) is explicitly out of scope for now — too large for this pass, revisit as its own effort if requested.
 
 ## Objective
 
@@ -20,8 +22,8 @@ Extract identity, parent property definitions (`VARIANT`, `BOOLEAN`, `INSTANCE_S
 | Item | Value / Configuration |
 |---|---|
 | **App & Plugin** | Figma Desktop with the target library open. Plugin: `Plugins → Development → Figma Desktop Bridge → Run` (keep active). |
-| **Library tiers → registry files** | `components` → `figma-components-registry.json` · `patterns` → `figma-patterns-registry.json` · `experiences` → `figma-experiences-registry.json` (all repo root, all shaped `{"components": {...}}` regardless of tier — the key name is kept literal across all three files for structural parity, even though it reads oddly for a patterns/experiences file). |
-| **Library file keys** | Read from `figma-libraries-registry.json` under the matching tier (`foundations` is not used by this skill — that's `figma-sync-tokens`'s territory). |
+| **Library tiers → registry files** | `components` → `figma-components-registry.json` · `patterns` → `figma-patterns-registry.json` · `experiences` → `figma-experiences-registry.json` · `foundations` → `figma-foundations-components-registry.json` (all repo root, all shaped `{"components": {...}}` regardless of tier — the key name is kept literal across all files for structural parity, even though it reads oddly for a patterns/experiences/foundations file). |
+| **Library file keys** | Read from `figma-libraries-registry.json` under the matching tier. |
 | **Audit log / Known traps** | `audit-log.md` / `known-traps.md` (this folder) — shared across all three tiers; audit entries are tagged with the tier + page they came from. |
 
 ## Steps
@@ -37,6 +39,7 @@ Extract identity, parent property definitions (`VARIANT`, `BOOLEAN`, `INSTANCE_S
 **STEP 2: Extract live Figma nodes**
 1. Verify Desktop Bridge is active and connected to the expected file (`figma_get_status`, `probe: true`).
 2. Search the active file for the `COMPONENT_SET` (or a standalone `COMPONENT`, for a slot-style/no-variant case — see `Content Placeholder` in `figma-components-registry.json` for precedent) named [Name]. On Patterns/Experiences pages, a public pattern is often built from `.`-prefixed private helper sets on the same page — register the public one; private helpers stay internal, same convention already applied in Components (e.g. `.Select card AI test`).
+   - **Flat asset family case** (first seen in Foundations' `Brand App Icons`): several standalone `COMPONENT`s (no shared `COMPONENT_SET`, no variant properties) that read as one family — e.g. per-platform/per-brand app icon exports. Register these as **one registry entry** for the family name, with an `assets: [{name, key, nodeId}]` array instead of `variantCount`/`componentPropertyDefinitions`. Don't split into one top-level entry per asset.
 3. Extract via `figma_execute`:
    - Key and node ID.
    - Variant count (`children.length`) if a `COMPONENT_SET`; omit if a standalone `COMPONENT`.

@@ -1,0 +1,71 @@
+{
+  "components": {
+    "Flag": {
+      "key": "8b56249f0c81c1e6f02831769e81c7e4e2e0c0f7",
+      "nodeId": "56977:25",
+      "pattern": "Pattern 1",
+      "variantCount": 11,
+      "auditedDate": "2026-08-27",
+      "status": "Documented — self-contained, no exposed instances"
+    },
+    "Favicon": {
+      "key": "4af3812b174f7cdcd21d08c3d2efb672753ade79",
+      "nodeId": "59238:827",
+      "pattern": "Pattern 1",
+      "status": "Documented — standalone COMPONENT (no variants), no exposed instances. Built internally on private helper set \".Brand Favicon\" (6 variants, one per brand) but exposes no properties of its own — instantiated as a fixed asset."
+    },
+    "Image Ratio": {
+      "key": "00f0402e71cd2bd1850a3a72aad81e521ec0d4f5",
+      "nodeId": "8864:28304",
+      "pattern": "Pattern 1",
+      "variantCount": 11,
+      "auditedDate": "2026-08-27",
+      "status": "Documented — self-contained, no exposed instances"
+    },
+    "Brand Logo": {
+      "key": "2655d153bd252a3c88303624379d23607cd06452",
+      "nodeId": "12021:46184",
+      "pattern": "Pattern 1",
+      "variantCount": 136,
+      "auditedDate": "2026-08-27",
+      "status": "Documented — self-contained, no exposed instances. Built internally on private helper set \".Logo\" (34 variants) but exposes no nested properties — configured entirely via its own componentPropertyDefinitions (Company, Type, Alignment, Size)."
+    },
+    "Brand App Icons": {
+      "auditedDate": "2026-08-27",
+      "status": "Documented — flat asset family, no shared COMPONENT_SET or variant properties across the 31 standalone COMPONENTs (per-platform/per-brand app icon exports).",
+      "assets": [
+        { "name": "Home App - Tinted Asset", "key": "c32a6fc1e862d78af71c9a9f8fa702b06c237f93", "nodeId": "53559:51" },
+        { "name": "Icon-Tinted-1024x1024", "key": "f60fb0bce20d1b60af93583d8c1a7d3c9cfa5950", "nodeId": "53559:268" },
+        { "name": "Icon-Dark-1024x1024", "key": "e96a24d49decf250c6c5c49c49b1f2da4128f79a", "nodeId": "53559:502" },
+        { "name": "Icon-Light-1024x1024", "key": "179cfcdc194341a047fdbbc87dbec3385dc6361a", "nodeId": "53559:736" },
+        { "name": "Icon-IWB-Light-1024x1024", "key": "0daefbf69e0df41a204317ef55b895ea9dc5a3cf", "nodeId": "53494:7797" },
+        { "name": "App Icon-SL-logo-Light-1024x1024", "key": "b1bc9004d5ae79a02a3c0d5c6cdc9d24913f19de", "nodeId": "53531:1177" },
+        { "name": "App Icon-SL-logo-Dark-1024x1024", "key": "594f62cc6599a6454f59fb8d66ac2663c22dbb23", "nodeId": "53531:1178" },
+        { "name": "App Icon-SL-Dark-1024x1024", "key": "97a333a9fa2dbf5804d7839ac51cc75c0c35e211", "nodeId": "53531:1176" },
+        { "name": "App Icon-SL-Light-1024x1024", "key": "2fb788d67a1a5f8cad5e0b8c5da5a65b5f1578c7", "nodeId": "53531:1175" },
+        { "name": "App Icon-IWB-Dark-1024x1024", "key": "e04dfbccc7d52adda9fd019f6efdd37dab67fad4", "nodeId": "53494:7834" },
+        { "name": "App Icon-IWB-Tinted-1024x1024", "key": "6001dffc4ae5cd998089b94015ad9ee69ae429d5", "nodeId": "53494:7860" },
+        { "name": "App Icon-IWT-Light-1024x1024", "key": "f37e4e8b8093131174213618019470279900691b", "nodeId": "53531:1094" },
+        { "name": "App-Icon-IMN-light-1024x1024", "key": "57eff5f5a4739b353b3b6bf7375e60a786af3385", "nodeId": "53531:1179" },
+        { "name": "Immonet-Launcher-Icon-background-108x108", "key": "c963afd635a59053ecf0abc0ff41ac4c355d2ed1", "nodeId": "54793:82" },
+        { "name": "Immonet-Launcher-Icon-monochromatic-108x108", "key": "3fc83504343e4d3ee181084b6630bff361695402", "nodeId": "54793:85" },
+        { "name": "Immowelt-Launcher-Icon-background-108x108", "key": "2f5dc1c3c7be8237a3fad82eac426e282633abd2", "nodeId": "54792:68" },
+        { "name": "Immowelt-Launcher-Icon-foreground-108x108", "key": "41ed5a70da55dd94d143db61b176b7ab75de342d", "nodeId": "54792:69" },
+        { "name": "Immonet-Launcher-Icon-foreground-108x108", "key": "d8c4a1eb440d79286008c5175cb1e937c4623386", "nodeId": "54793:90" },
+        { "name": "SeLoger-Launcher-Icon-background-108x108", "key": "ccf007f22c096a5e119d0f4d9e07fe1e89372d73", "nodeId": "54793:100" },
+        { "name": "SeLoger-Launcher-Icon-foreground-108x108", "key": "e8cf0793d08254a0a046ee78f0ac5f7bce6f455b", "nodeId": "54793:101" },
+        { "name": "Seloger-Launcher-Icon-monochromatic-108x108", "key": "3de65df8e19e600c241f98dddc9922d7366ebadf", "nodeId": "54817:6342" },
+        { "name": "Immowelt-Launcher-Icon-monochrome-108x108", "key": "360e3745d7973a75e8e639967c28ae5dc0a8234d", "nodeId": "54817:6357" },
+        { "name": "App-icon-IWT-Go-1024x1024", "key": "25a150ceb9d7dc9ab9d9e1d51c143c92d0f1a9a5", "nodeId": "54954:53" },
+        { "name": "Immowelt-go-Launcher-Icon-background-108x108", "key": "6639987ef2ec0a2b8b9598ac776349ef09494056", "nodeId": "54954:102" },
+        { "name": "Immowelt-go-Launcher-Icon-foreground-108x108", "key": "3c55586cbd19316baab93bea91c5a869d99bd5b2", "nodeId": "54954:103" },
+        { "name": "Immowelt-go-Launcher-Icon-monochromatic-108x108", "key": "b60f54d77366b77addf202a9e3bffaf7baa1525d", "nodeId": "54954:104" },
+        { "name": "App-icon-LogicImmo-Light-1024x1024", "key": "5e18234d1bbbb7fa354485654155c8299a959718", "nodeId": "56466:8678" },
+        { "name": "App-icon-LogicImmo-Dark-1024x1024", "key": "8d44443a23b7157cea2b388d05eda2b1ec91d4ca", "nodeId": "56466:8679" },
+        { "name": "LogicImmo-Launcher-Icon-background-108x108", "key": "2497eed65ea0ede9980b10680b70420bd4da917c", "nodeId": "56466:2147" },
+        { "name": "LogicImmo-Launcher-Icon-foreground-108x108", "key": "c562ce1ab886925d687e55666f9ea6d8accafec7", "nodeId": "56466:2149" },
+        { "name": "LogicImmo-Launcher-Icon-monochrome-108x108", "key": "50a846003b9f8c11d0fd5c1953bf654d39884ae4", "nodeId": "56466:8677" }
+      ]
+    }
+  }
+}

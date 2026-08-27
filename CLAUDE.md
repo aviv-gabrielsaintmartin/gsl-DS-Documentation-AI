@@ -30,6 +30,16 @@ Structure findings as:
 - The 2–3 root causes.
 - The decisions Gabriel needs to make.
 
+### Every PR
+- Body has two sections: **Summary** (what changed and why) and **Verification** (what was checked to confirm the change works — e.g. "verified live via Figma Desktop Bridge", "confirmed registry JSON matches live Figma data"). This repo has no automated test suite, so "Verification" replaces the usual "Test plan".
+- Title under 70 characters, imperative mood.
+
+## Branch naming
+
+`<category>/<kebab-case-description>`, e.g. `figma/sync-foundations-components`.
+
+Current categories: `figma` (Figma sync skills work), `zeroheight` (zeroheight-confluence-transfer work), `docs` (CLAUDE.md or skill doc edits), `audit` (component-web-ai-docs runs). Extensible — add a new category when a branch's work doesn't fit any existing one, rather than forcing a bad fit.
+
 ## Repository structure
 
 - `08 export/` — an Obsidian vault (`.obsidian/`) containing raw Zeroheight markdown exports, one file per design-system component/pattern (e.g. `Button.md`, `Accordion.md`, `Charts.md`). These are the **source content** consumed by the `zeroheight-confluence-transfer` skill.

@@ -8141,8 +8141,7 @@
                 "Off"
               ]
             }
-          },
-          "note": "Two components share the layer name water-ladder in this category — this one is the genuine water-ladder icon (internal Name variant also reads water-ladder). See the other entry (key 89b3df...) for a likely mislabeling."
+          }
         },
         {
           "name": "person-swimming",
@@ -8329,7 +8328,7 @@
           }
         },
         {
-          "name": "water-ladder",
+          "name": "film",
           "key": "89b3df33dbf62b723c9ba5b116f469cf01fbe82b",
           "nodeId": "58963:6282",
           "variantCount": 1,
@@ -8348,8 +8347,7 @@
                 "Off"
               ]
             }
-          },
-          "note": "Likely mislabeled: this COMPONENT_SET's Figma layer is named water-ladder, but its internal Name variant property reads film — no other film icon exists in the registry. Probably a duplicated/renamed film icon that was never corrected. Flagged 2026-08-27 for design owner confirmation before renaming or removing."
+          }
         },
         {
           "name": "briefcase-medical",

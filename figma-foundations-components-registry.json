@@ -8233,7 +8233,7 @@
               "Spot",
               "Hero"
             ],
-            "note": "Only illustration with zero exposed sub-components (no Alerts tag composition) — flagged 2026-08-28, worth confirming this is intentional rather than a missed tag."
+            "note": "Confirmed by design owner (2026-08-28) as intentionally different from the rest of the catalog — no Alerts tag composition by design, not a missed tag. No action needed."
           }
         ]
       },
@@ -8348,7 +8348,7 @@
             "nodeId": "58965:48040"
           }
         ],
-        "note": "Two standalone COMPONENTs both named HeroIllus, no variant properties, no shared COMPONENT_SET — same flat-asset-family shape as Brand App Icons. Not yet distinguished (e.g. by brand) — flagged 2026-08-28 for design owner confirmation of what differentiates them."
+        "note": "Confirmed by design owner (2026-08-28): Home Page illustrations are standalone, deliberately not using the shared Size/Alerts-tag structure the rest of the catalog follows. Out of scope for now — ignored, not further modeled."
       }
     }
   }

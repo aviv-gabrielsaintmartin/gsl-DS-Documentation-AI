@@ -1,0 +1,94 @@
+<!-- Source: https://avivgroup.atlassian.net/wiki/spaces/ADS/pages/2832629823/Floating+button+group | Last modified: Aug 21, 2026 -->
+
+# Floating button group
+
+The floating button group is used to display icon-only actions on top of images and maps.
+
+![](blob:https://media.staging.atl-paas.net/?type=file&localId=null&id=fd28d1e5-80d3-45b8-93c5-c6c5f88ff49f&&collection=contentId-2832629823&height=750&occurrenceKey=null&width=2756&__contextId=null&__displayType=null&__external=false&__fileMimeType=null&__fileName=null&__fileSize=null&__mediaTraceId=null&url=null)
+| Figma | Web | iOS | Android |
+| --- | --- | --- | --- |
+| Ready ✅ | Ready ✅ | N/A | N/A |
+
+⚠️ Web only
+
+* [Floating button group on Figma](https://www.figma.com/design/xxqSJcKOphrgimxRQbvtfe/2.-Gemini-Components-Library?node-id=3-7292)
+* [Floating button group on Storybook](https://gemini-storybook.prompt-scorpion-preview.aws.aviv.eu/?path=/docs/ui-overlay-floatingbuttongroup--docs)
+
+---
+
+## Usage
+
+The floating button group is used for quick access to important actions without taking up much screen space. They are mainly used for zooming on maps.
+
+### Platform
+
+The component is only used on the web. On iOS and Android, native components are used instead. The native components are not available in the gemini figma libraries.
+
+### When to use
+
+Not documented
+
+### When NOT to use
+
+Not documented
+
+### Variant Selection Flow
+
+Not documented
+
+### Usage Guidance
+
+| DO | DON'T |
+| --- | --- |
+| ![](blob:https://media.staging.atl-paas.net/?type=file&localId=null&id=47ade3c4-ba0f-4cb0-a1da-c8422dff0ac2&&collection=contentId-2832629823&height=2400&occurrenceKey=null&width=1840&__contextId=null&__displayType=null&__external=false&__fileMimeType=null&__fileName=null&__fileSize=null&__mediaTraceId=null&url=null) **DO:** Use the floating button group for related actions, such as zooming on maps. | ![](blob:https://media.staging.atl-paas.net/?type=file&localId=null&id=64d38316-c719-438b-94a1-c4b75c9ebe74&&collection=contentId-2832629823&height=2400&occurrenceKey=null&width=1840&__contextId=null&__displayType=null&__external=false&__fileMimeType=null&__fileName=null&__fileSize=null&__mediaTraceId=null&url=null) **DON'T:** Don't use the floating button group for unrelated actions. Instead, use individual floating buttons. |
+
+### Related Components
+
+| Component | Usage |
+| --- | --- |
+| **Floating button group** | Floating button groups are used to group related actions together and position them on top of images and maps. |
+| [**Button (floating)**](https://gemini.zeroheight.com/styleguide/s/92948/p/97e03c-button/t/page-97e03c-92632748-17) | Floating buttons are used for unrelated actions on top of images and maps. |
+
+---
+
+## Variants & Modifiers
+
+### Buttons
+
+The floating button group is available with 2 - 3 buttons.
+
+### Alignment
+
+The floating button group is available with a vertical and horizontal alignment.
+
+### Modifiers
+
+Not documented
+
+---
+
+## Behavior & Responsiveness
+
+### Interactive States & Loading
+
+The buttons in the floating button group have the states default, hover, pressed and disabled.
+
+### Touch Target & Layout
+
+Not documented
+
+### Breakpoints & Platform Adaptations
+
+Not documented
+
+---
+
+## Content & UX Writing
+
+Not documented
+
+---
+
+## Accessibility (a11y)
+
+Not documented

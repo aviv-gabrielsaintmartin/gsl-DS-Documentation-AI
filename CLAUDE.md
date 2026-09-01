@@ -17,11 +17,17 @@ This is **not a source-code repository** — there is no build, lint, or test to
 - Use bullet points when listing elements.
 - If a long answer is genuinely needed, say so and explain why before giving it.
 
+### Every new session
+- Check the current git branch (`git branch --show-current`) before starting any task.
+- Confirm with Gabriel that it's the right branch for what he's about to ask — if it looks like a different or already-merged task's branch, flag it and ask before proceeding.
+
 ### Every request
 - Rephrase the request first to confirm shared understanding.
 - Ask clarifying questions if relevant.
 - Wait for explicit approval before starting work.
 - Push back on a proposal when warranted — but always offer an alternative.
+- One task = one branch. Finish it (commit, push, PR, merge) before starting the next one, rather than stacking work on top of an unrelated branch.
+- Always pause for explicit go-ahead before pushing, opening a PR, or merging — never chain these automatically after a commit, even within one task.
 
 ### Every investigation
 Structure findings as:

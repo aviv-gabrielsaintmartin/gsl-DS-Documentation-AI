@@ -14,10 +14,10 @@ Component usage documentation for the GSL Design System.
 | [Autocomplete](Components/Autocomplete.md) |
 | [Avatar](Components/Avatar.md) |
 | [Breadcrumb](Components/Breadcrumb.md) |
-| [Button](Components/Button.md) |
+| [Button](Components/Button/Button.md) |
 | [Button card](Components/Button%20card.md) |
 | [Button group](Components/Button%20group.md) |
-| [Card](Components/Card.md) |
+| [Card](Components/Card/Card.md) |
 | [Carousel](Components/Carousel.md) |
 | [Cell content](Components/Cell%20content.md) |
 | [Charts (Pattern)](Components/Charts.md) |

@@ -4,7 +4,7 @@
 
 Cards are flexible containers used to visually group content.
 
-![](blob:https://media.staging.atl-paas.net/?type=file&localId=null&id=64e7d877-8ad9-4e4a-872c-d02a5be93de2&&collection=contentId-2831712331&height=750&occurrenceKey=null&width=2756&__contextId=null&__displayType=null&__external=false&__fileMimeType=null&__fileName=null&__fileSize=null&__mediaTraceId=null&url=null)
+![](images/8py3RJZZnPsqp4NWg8cD5Q.png)
 | Figma | Web | iOS | Android |
 | --- | --- | --- | --- |
 | Ready ✅ | Ready ✅ | Ready ✅ | Ready ✅ |
@@ -34,9 +34,9 @@ Not documented
 
 | DO |
 | --- |
-| ![](blob:https://media.staging.atl-paas.net/?type=file&localId=null&id=8d810c16-9a16-46d7-8c47-dc7101f882ce&&collection=contentId-2831712331&height=626&occurrenceKey=null&width=720&__contextId=null&__displayType=null&__external=false&__fileMimeType=null&__fileName=null&__fileSize=null&__mediaTraceId=null&url=null) **DO:** Use cards to encapsulate related content or actions that belong together. You can add text, actions, icons, illustrations and images within cards. Place elements in a way that creates a clear hierarchy and is easy to scan. |
-| ![](blob:https://media.staging.atl-paas.net/?type=file&localId=null&id=d130de5a-82d8-4ec4-9997-b59d19e9d5bc&&collection=contentId-2831712331&height=620&occurrenceKey=null&width=720&__contextId=null&__displayType=null&__external=false&__fileMimeType=null&__fileName=null&__fileSize=null&__mediaTraceId=null&url=null) **DO:** Separate larger cards with a divider. |
-| ![](blob:https://media.staging.atl-paas.net/?type=file&localId=null&id=69f5e94a-2044-45ca-b889-77337b1925bc&&collection=contentId-2831712331&height=626&occurrenceKey=null&width=720&__contextId=null&__displayType=null&__external=false&__fileMimeType=null&__fileName=null&__fileSize=null&__mediaTraceId=null&url=null) **DO:** Create clickable cards by placing the cell content component inside the card. |
+| ![](images/31c903cc435aed09c0276f.png) **DO:** Use cards to encapsulate related content or actions that belong together. You can add text, actions, icons, illustrations and images within cards. Place elements in a way that creates a clear hierarchy and is easy to scan. |
+| ![](images/51d5299c88c8b000e83f3f.png) **DO:** Separate larger cards with a divider. |
+| ![](images/0cde26c1018209be5a6da0.png) **DO:** Create clickable cards by placing the cell content component inside the card. |
 
 | DON'T |
 | --- |
@@ -59,7 +59,7 @@ The card is available with 4 different background colors. Choose the color accor
 
 | DO |
 | --- |
-| ![](blob:https://media.staging.atl-paas.net/?type=file&localId=null&id=639db333-ad91-4405-a2dd-990bd7133299&&collection=contentId-2831712331&height=992&occurrenceKey=null&width=812&__contextId=null&__displayType=null&__external=false&__fileMimeType=null&__fileName=null&__fileSize=null&__mediaTraceId=null&url=null) **DO:** Use different background colors to create visual hierarchy. |
+| ![](images/57aa0c258410f1dcb861ec.png) **DO:** Use different background colors to create visual hierarchy. |
 
 ### Radius
 
@@ -71,8 +71,8 @@ The card can be used with 8px padding or without padding. Choose the padding acc
 
 | DO |
 | --- |
-| ![](blob:https://media.staging.atl-paas.net/?type=file&localId=null&id=f631b177-166f-4b82-bd21-bc8b90e1c0ab&&collection=contentId-2831712331&height=440&occurrenceKey=null&width=748&__contextId=null&__displayType=null&__external=false&__fileMimeType=null&__fileName=null&__fileSize=null&__mediaTraceId=null&url=null) **DO:** Use the card with padding to separate content from the edge. |
-| ![](blob:https://media.staging.atl-paas.net/?type=file&localId=null&id=bbb6e550-ba34-450f-aa08-f0a9f6c1601c&&collection=contentId-2831712331&height=440&occurrenceKey=null&width=720&__contextId=null&__displayType=null&__external=false&__fileMimeType=null&__fileName=null&__fileSize=null&__mediaTraceId=null&url=null) **DO:** When you wrap clickable cell contents inside cards, no padding is needed because the cell contents already contain padding. This makes the entire card clickable. |
+| ![](images/8d2a2a8042cd11a6898fd5.png) **DO:** Use the card with padding to separate content from the edge. |
+| ![](images/c86bb98d81329fec8cfeab.png) **DO:** When you wrap clickable cell contents inside cards, no padding is needed because the cell contents already contain padding. This makes the entire card clickable. |
 
 ### Slots
 

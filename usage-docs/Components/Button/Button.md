@@ -4,7 +4,7 @@
 
 Buttons are used to trigger an immediate action. Button labels express what action will occur when the user interacts with it.
 
-![](blob:https://media.staging.atl-paas.net/?type=file&localId=null&id=49389108-1cf1-41de-831a-5ea170aef3c4&&collection=contentId-2832039962&height=750&occurrenceKey=null&width=2756&__contextId=null&__displayType=null&__external=false&__fileMimeType=null&__fileName=null&__fileSize=null&__mediaTraceId=null&url=null)
+![](images/9x_Scmr1cd8CdgMGR1pZWA.png)  <!-- order-inferred, please verify -->
 | Figma | Web | iOS | Android |
 | --- | --- | --- | --- |
 | Ready ✅ | Ready ✅ | Ready ✅ | Ready ✅ |
@@ -44,7 +44,7 @@ Not documented
 
 | DO | DON'T |
 | --- | --- |
-| ![](blob:https://media.staging.atl-paas.net/?type=file&localId=null&id=9bc81061-f455-4224-b011-057afa948c29&&collection=contentId-2832039962&height=520&occurrenceKey=null&width=1200&__contextId=null&__displayType=null&__external=false&__fileMimeType=null&__fileName=null&__fileSize=null&__mediaTraceId=null&url=null) **DO:** Use buttons to trigger actions, such as sharing, saving or opening a modal with a contact form. | ![](blob:https://media.staging.atl-paas.net/?type=file&localId=null&id=87570592-42e3-47c8-93ad-6027e830365c&&collection=contentId-2832039962&height=520&occurrenceKey=null&width=1200&__contextId=null&__displayType=null&__external=false&__fileMimeType=null&__fileName=null&__fileSize=null&__mediaTraceId=null&url=null) **DON'T:** Don't use buttons as navigational elements. Instead, use links when the desired action is to take the user to a new page. |
+| ![](images/6508fd4a5b873b8436fa64.png) **DO:** Use buttons to trigger actions, such as sharing, saving or opening a modal with a contact form. | ![](images/e296b4e7cef1d2c8257112.png) **DON'T:** Don't use buttons as navigational elements. Instead, use links when the desired action is to take the user to a new page. |
 
 ### Related Components
 
@@ -61,7 +61,7 @@ Not documented
 
 These different types of buttons are based on the level of emphasis we want to give to various actions. The most important aspect is to establish a visual hierarchy among the buttons in your UI. Keep these best practices in mind.
 
-![](blob:https://media.staging.atl-paas.net/?type=file&localId=null&id=47c11ee6-5fae-4ba7-ae6b-af76159255f0&&collection=contentId-2832039962&height=362&occurrenceKey=null&width=840&__contextId=null&__displayType=null&__external=false&__fileMimeType=null&__fileName=null&__fileSize=null&__mediaTraceId=null&url=null)
+![](images/1mRHRXrsfZVQJZhaFkWWEg.svg)
 Proportion of emphasis used across AVIV products
 
 | Emphasis | Purpose |
@@ -73,12 +73,12 @@ Proportion of emphasis used across AVIV products
 
 | DO | DON'T |
 | --- | --- |
-| ![](blob:https://media.staging.atl-paas.net/?type=file&localId=null&id=8879b9ad-9ea8-4ca8-b98b-a590b25353b8&&collection=contentId-2832039962&height=260&occurrenceKey=null&width=600&__contextId=null&__displayType=null&__external=false&__fileMimeType=null&__fileName=null&__fileSize=null&__mediaTraceId=null&url=null) **DO:** Use only one primary button per section. | ![](blob:https://media.staging.atl-paas.net/?type=file&localId=null&id=dcff6926-bfb8-4d1d-a3e2-b68b1b8b36ca&&collection=contentId-2832039962&height=260&occurrenceKey=null&width=600&__contextId=null&__displayType=null&__external=false&__fileMimeType=null&__fileName=null&__fileSize=null&__mediaTraceId=null&url=null) **DON'T:** Don't use more than one primary button per section. |
+| ![](images/DpJQ8zZ_6ifdgFzLni-MJA.svg) **DO:** Use only one primary button per section. | ![](images/K-EoyUnI9ephHevzuDS99Q.svg) **DON'T:** Don't use more than one primary button per section. |
 
 | DO |
 | --- |
 | **DO:** You can use secondary and tertiary buttons without the need to include a primary one. |
-| ![](blob:https://media.staging.atl-paas.net/?type=file&localId=null&id=f2bf02a0-5c36-4429-bc3d-847ec2b2f2ef&&collection=contentId-2832039962&height=260&occurrenceKey=null&width=600&__contextId=null&__displayType=null&__external=false&__fileMimeType=null&__fileName=null&__fileSize=null&__mediaTraceId=null&url=null) **DO:** You can group multiple secondary and tertiary buttons. |
+| ![](images/2j_UrTRY7PxpmhsPOD9Xew.png) **DO:** You can group multiple secondary and tertiary buttons. |
 
 | CAUTION |
 | --- |
@@ -92,7 +92,7 @@ At AVIV we use our 40px height button as the default but there's no strict rule 
 
 | DO | DON'T |
 | --- | --- |
-| ![](blob:https://media.staging.atl-paas.net/?type=file&localId=null&id=d7b579ae-570a-45da-accb-e3029e886429&&collection=contentId-2832039962&height=260&occurrenceKey=null&width=600&__contextId=null&__displayType=null&__external=false&__fileMimeType=null&__fileName=null&__fileSize=null&__mediaTraceId=null&url=null) **DO:** Use the same size of the button or field aside. | **DON'T:** Do not use a different size between two buttons aside or the field next to the button. |
+| ![](images/FFF0nICzSsOqcFS8l7wlxQ.svg) **DO:** Use the same size of the button or field aside. | **DON'T:** Do not use a different size between two buttons aside or the field next to the button. |
 
 ### Context
 
@@ -100,8 +100,8 @@ Buttons change appearance depending on their context and background to better ad
 
 | DO |
 | --- |
-| ![](blob:https://media.staging.atl-paas.net/?type=file&localId=null&id=88713e4e-96cc-47ab-9199-a04ccb31eea1&&collection=contentId-2832039962&height=260&occurrenceKey=null&width=600&__contextId=null&__displayType=null&__external=false&__fileMimeType=null&__fileName=null&__fileSize=null&__mediaTraceId=null&url=null) **DO:** Use the floating variant for buttons that overlap images. |
-| ![](blob:https://media.staging.atl-paas.net/?type=file&localId=null&id=6843e8b3-dbfd-47fe-b900-4aa849be7f6a&&collection=contentId-2832039962&height=260&occurrenceKey=null&width=600&__contextId=null&__displayType=null&__external=false&__fileMimeType=null&__fileName=null&__fileSize=null&__mediaTraceId=null&url=null) **DO:** Use the floating variant for buttons that overlap images. |
+| ![](images/EHJnjd0Z48pYBzpRrSaBcA.png)  <!-- order-inferred, please verify --> **DO:** Use the floating variant for buttons that overlap images. |
+| ![](images/k_8wf7IfkE-K3iZOEs9sLA.png) **DO:** Use the floating variant for buttons that overlap images. |
 
 ### Modifiers
 
@@ -111,7 +111,7 @@ Icons are used to emphasize the action stated in the label of the button. By def
 
 | DO | DON'T |
 | --- | --- |
-| ![](blob:https://media.staging.atl-paas.net/?type=file&localId=null&id=c1f5b7af-35a2-4623-a2a7-0956bd8189bc&&collection=contentId-2832039962&height=260&occurrenceKey=null&width=600&__contextId=null&__displayType=null&__external=false&__fileMimeType=null&__fileName=null&__fileSize=null&__mediaTraceId=null&url=null) **DO:** Icons that serve an interactive function must be placed within an icon-only button. This ensures accessibility, and clear affordance for user interactions. | ![](blob:https://media.staging.atl-paas.net/?type=file&localId=null&id=ce98df21-8940-4bb5-a1ff-4e2836389e74&&collection=contentId-2832039962&height=260&occurrenceKey=null&width=600&__contextId=null&__displayType=null&__external=false&__fileMimeType=null&__fileName=null&__fileSize=null&__mediaTraceId=null&url=null) **DON'T:** Icons should not be added to layouts with the intent of being interactive. Icons themselves do not support different states or interactions and must be placed within appropriate interactive components, such as buttons, to ensure usability and accessibility. |
+| ![](images/xsQee_t-zxzmQ_plzaaW9A.svg) **DO:** Icons that serve an interactive function must be placed within an icon-only button. This ensures accessibility, and clear affordance for user interactions. | ![](images/aHbzr5JTbkd18UPzRxmMFA.svg) **DON'T:** Icons should not be added to layouts with the intent of being interactive. Icons themselves do not support different states or interactions and must be placed within appropriate interactive components, such as buttons, to ensure usability and accessibility. |
 
 #### Badge
 
@@ -128,7 +128,7 @@ Badges in buttons are used to display dynamic information that grabs the user's 
 
 | DO | DON'T |
 | --- | --- |
-| ![](blob:https://media.staging.atl-paas.net/?type=file&localId=null&id=37c6c561-5e6f-4be7-bdf3-9a5b4078e182&&collection=contentId-2832039962&height=880&occurrenceKey=null&width=640&__contextId=null&__displayType=null&__external=false&__fileMimeType=null&__fileName=null&__fileSize=null&__mediaTraceId=null&url=null) **DO:** Keep the button active and mark mandatory fields as required. Show error messages when the user clicks the button but hasn't filled all mandatory fields. | ![](blob:https://media.staging.atl-paas.net/?type=file&localId=null&id=88a32d36-8f1d-47c8-835b-5015491f2efe&&collection=contentId-2832039962&height=880&occurrenceKey=null&width=640&__contextId=null&__displayType=null&__external=false&__fileMimeType=null&__fileName=null&__fileSize=null&__mediaTraceId=null&url=null) **DON'T:** Avoid using disabled buttons. |
+| ![](images/7152697f875f7018a1b7ee.png) **DO:** Keep the button active and mark mandatory fields as required. Show error messages when the user clicks the button but hasn't filled all mandatory fields. | ![](images/388cf31d0d63f96d28148d.png) **DON'T:** Avoid using disabled buttons. |
 
 **Loading:** This state is typically triggered when the action initiated upon click involves an API call or server query. This provides the user with a visual indication that their action is being processed. When a button is in a Loading state, the user can still navigate the page. However, if they initiate a new action before the previous one is completed, a message or alert may appear.
 
@@ -139,8 +139,8 @@ Badges in buttons are used to display dynamic information that grabs the user's 
 
 | DO |
 | --- |
-| ![](blob:https://media.staging.atl-paas.net/?type=file&localId=null&id=d634691c-e32b-4bf5-9935-ad4f443211a6&&collection=contentId-2832039962&height=260&occurrenceKey=null&width=600&__contextId=null&__displayType=null&__external=false&__fileMimeType=null&__fileName=null&__fileSize=null&__mediaTraceId=null&url=null) **DO:** Use full width buttons on mobile devices. |
-| ![](blob:https://media.staging.atl-paas.net/?type=file&localId=null&id=146638df-04ed-4b17-8f0b-1ac937b68528&&collection=contentId-2832039962&height=260&occurrenceKey=null&width=600&__contextId=null&__displayType=null&__external=false&__fileMimeType=null&__fileName=null&__fileSize=null&__mediaTraceId=null&url=null) **DO:** Use full width buttons on smaller containers on desktop devices. |
+| ![](images/6BgGGjSs4ALrawTBowP1ag.svg) **DO:** Use full width buttons on mobile devices. |
+| ![](images/-Yo3dabzd0hSc_wRSn8TSw.png) **DO:** Use full width buttons on smaller containers on desktop devices. |
 
 ### Breakpoints & Platform Adaptations
 
@@ -158,7 +158,7 @@ Buttons solicit an action from the user and trigger that action. Buttons should 
 
 | DO | DON'T |
 | --- | --- |
-| ![](blob:https://media.staging.atl-paas.net/?type=file&localId=null&id=9f013dfe-3057-4bc7-bb4a-cb38f1d0fddf&&collection=contentId-2832039962&height=260&occurrenceKey=null&width=600&__contextId=null&__displayType=null&__external=false&__fileMimeType=null&__fileName=null&__fileSize=null&__mediaTraceId=null&url=null) **DO:** Give actions a clear naming. | ![](blob:https://media.staging.atl-paas.net/?type=file&localId=null&id=4c6c801d-30c3-4cef-8c30-ab4c2bc31691&&collection=contentId-2832039962&height=260&occurrenceKey=null&width=600&__contextId=null&__displayType=null&__external=false&__fileMimeType=null&__fileName=null&__fileSize=null&__mediaTraceId=null&url=null) **DON'T:** Don't give actions a vague naming. |
+| ![](images/awuqKfbT4aKJsszm5uVlHQ.svg) **DO:** Give actions a clear naming. | ![](images/Rolnjm71sEPmKJJzNO_gAg.svg) **DON'T:** Don't give actions a vague naming. |
 
 ---
 

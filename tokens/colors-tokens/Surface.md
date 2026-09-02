@@ -13,7 +13,7 @@
 | `Surface/Transparent` | See-through washes with no solid colour, for subtle interaction feedback | Visible/solid state changes (→ `Interactive`) |
 | `Surface/On-Brand / On-Primary / On-Secondary` | An element's own fill when it sits on top of a brand/primary/secondary surface | The brand/primary/secondary surface itself |
 | `Surface/Data visualisation` | Charts and graphs only | Product UI, ever — even if a colour looks right |
-| `Surface/Decorative` | *Flagged — definition still too vague, see Semantic usage section below* | — |
+| `Surface/Decorative` | Fixed accent fills for non-semantic decorative elements — rating-star fills, edit-highlight backgrounds — accent colour with no state meaning | Semantic states (→ `Status`, `Active`, `Score`); illustration/avatar fills (→ Symbol family) |
 
 ## Semantic usage
 
@@ -96,14 +96,14 @@
 
 **Flag — unconfirmed:** `Accent/Light/Default` and `Active/Default` currently resolve to the identical hex in both Light and Dark (`#FCE6E7` / `#2E0000`). Unclear whether these are meant to be the same token under two names, or should diverge — an agent currently can't tell which is "correct" for a new use case since both produce the same result. Needs confirmation before this ambiguity is resolved.
 
-### Decorative — flagged, needs a better definition
+### Decorative
 
-| Token | Current best understanding | Flag |
+| Token | When to use | Don't use for |
 | --- | --- | --- |
-| `Surface/Decorative/Red` | Used for additional page elements that don't fit into any other semantic category (not illustrations — those are Symbol tokens) | Too vague for reliable AI selection. "Doesn't fit elsewhere" isn't a decision rule — an agent can't tell when a colour needs a decorative fill versus when it's actually a missed semantic case. |
-| `Surface/Decorative/Yellow` | Same | Same flag |
+| `Surface/Decorative/Red` | A fixed accent fill for a non-semantic decorative element — e.g. a rating-star fill, or the background marking an edited/changed portion of content | Any state that maps to Status/Active/Score (→ use that family); illustration or avatar fills (→ Symbol family) |
+| `Surface/Decorative/Yellow` | Same use cases as `Red`, when a second decorative accent is needed (e.g. a two-tone rating display) | Same as `Red` |
 
-*Needs a real example of where this is used in a live screen before a proper "when to use" definition can be written. Not to be confused with illustration/avatar colours (Symbol family).*
+*Decorative tokens carry brand/visual accent, not state. If an element's colour is meant to communicate something (error, active, tier), that's a missed semantic case, not a Decorative one.*
 
 ### base
 

@@ -8,7 +8,7 @@ Four types of color palettes are available for data visualization: qualitative, 
 
 ## Accessibility (a11y)
 
-Our color palettes are fully accessible to color-blind people.
+> ℹ️ Our color palettes are fully accessible to color-blind people.
 
 To achieve this, we based our design on several resources like the work of [Paul Tol](https://personal.sron.nl/~pault/) who created several color-blind palettes, or [ColorBrewer](https://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3) who proposes palettes dedicated to maps.
 
@@ -24,23 +24,25 @@ A categorical color palette consists of visually distinct colors representing di
 
 Each color in the palette is selected to be easily distinguishable from the others, ensuring that categories are identifiable.
 
-![](blob:https://media.staging.atl-paas.net/?type=file&localId=null&id=9e4714a6-1090-4f03-8db8-41853d0cc954&&collection=contentId-2832531564&height=124&occurrenceKey=null&width=855&__contextId=null&__displayType=null&__external=false&__fileMimeType=null&__fileName=null&__fileSize=null&__mediaTraceId=null&url=null)
-![](blob:https://media.staging.atl-paas.net/?type=file&localId=null&id=90fef8d8-ee77-4aec-a137-53acb73310e6&&collection=contentId-2832531564&height=204&occurrenceKey=null&width=855&__contextId=null&__displayType=null&__external=false&__fileMimeType=null&__fileName=null&__fileSize=null&__mediaTraceId=null&url=null)
+![](images/83d3a206a5020bfd0fc609.png)
+
+![](images/1b16e49bafc3f3cccd5e3d.png)
+
 #### Color order
 
-Don't change the color order as it's made to ensure a good differentiation between color.
+> ⚠️ Don't change the color order as it's made to ensure a good differentiation between color.
 
 | 01 bar | 02 bars | 03 bars | 04 bars | 05 bars |
 | --- | --- | --- | --- | --- |
-| ![](blob:https://media.staging.atl-paas.net/?type=file&localId=null&id=c0d86187-8a15-4a8d-9868-e204b8798355&&collection=contentId-2832531564&height=131&occurrenceKey=null&width=87&__contextId=null&__displayType=null&__external=false&__fileMimeType=null&__fileName=null&__fileSize=null&__mediaTraceId=null&url=null) | ![](blob:https://media.staging.atl-paas.net/?type=file&localId=null&id=ed35fbca-dc9b-4cce-a743-d07a593eb5d0&&collection=contentId-2832531564&height=131&occurrenceKey=null&width=87&__contextId=null&__displayType=null&__external=false&__fileMimeType=null&__fileName=null&__fileSize=null&__mediaTraceId=null&url=null) | ![](blob:https://media.staging.atl-paas.net/?type=file&localId=null&id=befbe34e-84b6-491f-95a3-aa38bd5b25c1&&collection=contentId-2832531564&height=131&occurrenceKey=null&width=87&__contextId=null&__displayType=null&__external=false&__fileMimeType=null&__fileName=null&__fileSize=null&__mediaTraceId=null&url=null) | ![](blob:https://media.staging.atl-paas.net/?type=file&localId=null&id=115bfd81-df8f-40ac-9b92-e4a8c00f8a6a&&collection=contentId-2832531564&height=131&occurrenceKey=null&width=87&__contextId=null&__displayType=null&__external=false&__fileMimeType=null&__fileName=null&__fileSize=null&__mediaTraceId=null&url=null) | ![](blob:https://media.staging.atl-paas.net/?type=file&localId=null&id=6e3fbd53-c390-4f7c-9b13-5b3cf7f4a553&&collection=contentId-2832531564&height=131&occurrenceKey=null&width=87&__contextId=null&__displayType=null&__external=false&__fileMimeType=null&__fileName=null&__fileSize=null&__mediaTraceId=null&url=null) |
+| ![](images/5c9aa6a664f7b090df2980.png) | Image unavailable | ![](images/f490d99412fbc433245a17.png) | ![](images/d9138e0681063e55805dd7.png) | ![](images/ad40f1ae8c1f4d132808bf.png) |
 
 | 01 line | 02 lines | 03 lines | 04 lines | 05 lines |
 | --- | --- | --- | --- | --- |
-| ![](blob:https://media.staging.atl-paas.net/?type=file&localId=null&id=3236853d-4f61-41a2-a8a3-399e18ebddc4&&collection=contentId-2832531564&height=131&occurrenceKey=null&width=87&__contextId=null&__displayType=null&__external=false&__fileMimeType=null&__fileName=null&__fileSize=null&__mediaTraceId=null&url=null) | ![](blob:https://media.staging.atl-paas.net/?type=file&localId=null&id=a339f3af-768c-400f-ad06-eb5c7061368d&&collection=contentId-2832531564&height=131&occurrenceKey=null&width=87&__contextId=null&__displayType=null&__external=false&__fileMimeType=null&__fileName=null&__fileSize=null&__mediaTraceId=null&url=null) | ![](blob:https://media.staging.atl-paas.net/?type=file&localId=null&id=d92ad0d7-9ab2-4a2e-aef4-153fdd7f466f&&collection=contentId-2832531564&height=131&occurrenceKey=null&width=87&__contextId=null&__displayType=null&__external=false&__fileMimeType=null&__fileName=null&__fileSize=null&__mediaTraceId=null&url=null) | _Image unavailable_ | ![](blob:https://media.staging.atl-paas.net/?type=file&localId=null&id=ec8157d6-4193-4745-a3ba-bbcdb8a1535a&&collection=contentId-2832531564&height=131&occurrenceKey=null&width=87&__contextId=null&__displayType=null&__external=false&__fileMimeType=null&__fileName=null&__fileSize=null&__mediaTraceId=null&url=null) |
+| ![](images/3dac8f58e6288a20b6b53c.png) | ![](images/78dd27e9db32381a7bc2e8.png) | ![](images/3008ad63ffcabdfa998601.png) | *Image unavailable* | ![](images/98e5d4c82657a586383ce5.png) |
 
 | 02 slices | 03 slices | 04 slices | 05 slices |
 | --- | --- | --- | --- |
-| ![](blob:https://media.staging.atl-paas.net/?type=file&localId=null&id=7998a648-9ce0-4ce6-8610-eb7e6ee66a45&&collection=contentId-2832531564&height=131&occurrenceKey=null&width=87&__contextId=null&__displayType=null&__external=false&__fileMimeType=null&__fileName=null&__fileSize=null&__mediaTraceId=null&url=null) | ![](blob:https://media.staging.atl-paas.net/?type=file&localId=null&id=a3cc642c-6904-4aeb-b1e7-5c73d40db712&&collection=contentId-2832531564&height=131&occurrenceKey=null&width=87&__contextId=null&__displayType=null&__external=false&__fileMimeType=null&__fileName=null&__fileSize=null&__mediaTraceId=null&url=null) | ![](blob:https://media.staging.atl-paas.net/?type=file&localId=null&id=1e3ad255-f444-48d5-8349-f36cad5b545f&&collection=contentId-2832531564&height=131&occurrenceKey=null&width=87&__contextId=null&__displayType=null&__external=false&__fileMimeType=null&__fileName=null&__fileSize=null&__mediaTraceId=null&url=null) | _Image unavailable_ |
+| ![](images/bc1016794783007f26958b.png) | ![](images/f324331331f185aefa41a6.png) | ![](images/84b7ff7e37b1b318d761d6.png) | *Image unavailable* |
 
 #### Usage Guidance
 
@@ -60,12 +62,16 @@ This is used to visualize data that follows a natural progression or order, like
 
 Use a sequential color scale for a more intuitive reading than a diverging palette.
 
-Please note that sequential palettes in dark mode work the other way, dark to light.
+> ℹ️ Please note that sequential palettes in dark mode work the other way, dark to light.
 
-![](blob:https://media.staging.atl-paas.net/?type=file&localId=null&id=8453818c-4aee-4054-939a-b82cf1fc9ae4&&collection=contentId-2832531564&height=124&occurrenceKey=null&width=395&__contextId=null&__displayType=null&__external=false&__fileMimeType=null&__fileName=null&__fileSize=null&__mediaTraceId=null&url=null)
-![](blob:https://media.staging.atl-paas.net/?type=file&localId=null&id=6af06a56-ce1a-48a6-b3d5-1bd6a6ca66fa&&collection=contentId-2832531564&height=124&occurrenceKey=null&width=395&__contextId=null&__displayType=null&__external=false&__fileMimeType=null&__fileName=null&__fileSize=null&__mediaTraceId=null&url=null)
-![](blob:https://media.staging.atl-paas.net/?type=file&localId=null&id=e3a6ae8b-59e5-4924-ae51-83ae1dd7eba3&&collection=contentId-2832531564&height=335&occurrenceKey=null&width=395&__contextId=null&__displayType=null&__external=false&__fileMimeType=null&__fileName=null&__fileSize=null&__mediaTraceId=null&url=null)
-![](blob:https://media.staging.atl-paas.net/?type=file&localId=null&id=25fb3ce5-f55d-43d3-a1c8-b6058a6a64db&&collection=contentId-2832531564&height=335&occurrenceKey=null&width=395&__contextId=null&__displayType=null&__external=false&__fileMimeType=null&__fileName=null&__fileSize=null&__mediaTraceId=null&url=null)
+![](images/6c1399267109e3f91da596.png)
+
+![](images/729a712b25a3e3a1b8e9e4.png)
+
+![](images/4bd2b5652c7ed8c6d71a16.png)
+
+![](images/004f99c43cb7a9031e765d.png)
+
 ### Diverging
 
 A diverging palette is the optimal choice for a numerical variable with a central value, such as zero.
@@ -73,28 +79,31 @@ A diverging palette is the optimal choice for a numerical variable with a centra
 It combines two sequential palettes that share the same endpoint at the central value. Larger values are represented by colors on one side, while smaller values are depicted by colors on the other side.
 
 Use a diverging palette:
-
 * If there's a meaningful middle point
 * To emphasize the extremes
 * To let readers see more differences in the data
 
 Diverging color palettes offer precision but may not be as intuitive to comprehend as sequential palettes.
 
-Please note that diverging palettes do not differentiate between light and dark themes.
+> ℹ️ Please note that diverging palettes do not differentiate between light and dark themes.
 
-![](blob:https://media.staging.atl-paas.net/?type=file&localId=null&id=24aea459-38fa-4856-9169-30f1af657fca&&collection=contentId-2832531564&height=124&occurrenceKey=null&width=855&__contextId=null&__displayType=null&__external=false&__fileMimeType=null&__fileName=null&__fileSize=null&__mediaTraceId=null&url=null)
-![](blob:https://media.staging.atl-paas.net/?type=file&localId=null&id=ab82a656-99b8-4746-b54d-68df449fd30b&&collection=contentId-2832531564&height=335&occurrenceKey=null&width=855&__contextId=null&__displayType=null&__external=false&__fileMimeType=null&__fileName=null&__fileSize=null&__mediaTraceId=null&url=null)
+![](images/ba052c58bd58d594aee3e9.png)
+
+![](images/daf342e057402de39bdfe4.png)
+
 ### Semantic
 
 A semantic color palette is a collection of colors assigned with specific meanings or associations to represent distinct concepts, categories, or states clearly and intuitively.
 
-![](blob:https://media.staging.atl-paas.net/?type=file&localId=null&id=a040993b-6f01-4f07-9a6d-538896cc82e6&&collection=contentId-2832531564&height=124&occurrenceKey=null&width=855&__contextId=null&__displayType=null&__external=false&__fileMimeType=null&__fileName=null&__fileSize=null&__mediaTraceId=null&url=null)
-![](blob:https://media.staging.atl-paas.net/?type=file&localId=null&id=33eec42d-0e2e-4e7c-961a-eef8728ac0dc&&collection=contentId-2832531564&height=109&occurrenceKey=null&width=855&__contextId=null&__displayType=null&__external=false&__fileMimeType=null&__fileName=null&__fileSize=null&__mediaTraceId=null&url=null)
+![](images/5e9b7b7f3bbd15ca4af884.png)
+
+![](images/9e6cb6c9a3a542e72b15b7.png)
+
 #### Usage Guidance
 
 | DO | DON'T |
 | --- | --- |
-| ![](blob:https://media.staging.atl-paas.net/?type=file&localId=null&id=a73e08e4-61b3-4b96-a1a8-8bd502afd2de&&collection=contentId-2832531564&height=291&occurrenceKey=null&width=420&__contextId=null&__displayType=null&__external=false&__fileMimeType=null&__fileName=null&__fileSize=null&__mediaTraceId=null&url=null) **DO:** Use icons, tags or any other elements that don't need color to be understood. | ![](blob:https://media.staging.atl-paas.net/?type=file&localId=null&id=25fc5d46-6153-41bf-a054-795abcfd7310&&collection=contentId-2832531564&height=291&occurrenceKey=null&width=420&__contextId=null&__displayType=null&__external=false&__fileMimeType=null&__fileName=null&__fileSize=null&__mediaTraceId=null&url=null) **DON'T:** Rely on color alone to give meaning — green and red can be the same color for some types of color-blind issues. |
+| ![](images/09abf640ed06a36cec004e.png) **DO:** Use icons, tags or any other elements that don't need color to be understood. | ![](images/8f2de4eaf0df6bdf4e99ee.png) **DON'T:** Rely on color alone to give meaning — green and red can be the same color for some types of color-blind issues. |
 
 ---
 

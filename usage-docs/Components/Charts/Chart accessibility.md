@@ -4,11 +4,11 @@
 
 ## Accessibility (a11y)
 
-The design is WIP and will vary based on the platform and framework used.
+> ℹ️ The design is WIP and will vary based on the platform and framework used.
 
 Implementation may be challenging depending on the framework and can vary by platform.
 
-Our color palettes are fully accessible to color-blind people.
+> ℹ️ Our color palettes are fully accessible to color-blind people.
 
 To achieve this, we based our design on several resources like the work of [Paul Tol](https://personal.sron.nl/~pault/) who created several color-blind palettes, or [ColorBrewer](https://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3) who proposes palettes dedicated to maps.
 
@@ -24,13 +24,15 @@ As color can't be the only differentiation element, it's recommended to add a pa
 
 With this mode, every graph using a line will use a dashed line, and every graph displaying areas will add a pattern on top of the areas, allowing every color-blind person to differentiate the data set.
 
-![](blob:https://media.staging.atl-paas.net/?type=file&localId=null&id=1d234fc8-e7e1-4f66-87aa-b3d9fa0b3699&&collection=contentId-2831908925&height=385&occurrenceKey=null&width=819&__contextId=null&__displayType=null&__external=false&__fileMimeType=null&__fileName=null&__fileSize=null&__mediaTraceId=null&url=null)
+![](images/Q9aIH3pgQSlWBVdew27BPA.png)
+
 Highcharts Low vision mode
 
-![](blob:https://media.staging.atl-paas.net/?type=file&localId=null&id=f2dda502-c39d-4c35-bff4-34fe15aa5556&&collection=contentId-2831908925&height=351&occurrenceKey=null&width=561&__contextId=null&__displayType=null&__external=false&__fileMimeType=null&__fileName=null&__fileSize=null&__mediaTraceId=null&url=null)
+![](images/uCahRTzkD49AvW-Jj-jZGw.jpg)
+
 Trello color blind mode
 
-The mode is not available in Figma.
+> ℹ️ The mode is not available in Figma.
 
 ---
 

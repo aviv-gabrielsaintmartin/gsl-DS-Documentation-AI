@@ -83,8 +83,6 @@ git add my-file.md
 
 "Staging" means marking a file as ready to be saved. Name the exact file(s) you changed.
 
-**In this project, avoid `git add .`** ("add everything"). This repo has two large data folders (`08 export/` and `Images export/`, ~900 MB total) and junk files (`.DS_Store`) sitting in the project folder that are not meant to be saved into git. `git add .` would scoop those up too. Always name your file(s) explicitly instead.
-
 ### 3. Commit your changes
 
 ```bash
@@ -116,6 +114,31 @@ git push --set-upstream origin your-branch-name
 ```
 
 Just copy-paste the exact command git shows you in that case.
+
+---
+
+## Why does `git status` show my files as "deleted" when I only renamed or moved them?
+
+If you (or Claude) rename a file or move it to a different folder, `git status` will show it as **two separate things**, not one "renamed" line:
+
+```
+D  tokens/Colors/Border.md
+?? tokens/colors-tokens/Border.md
+```
+
+- `D` (deleted) = this exact path is gone since the last commit.
+- `??` (untracked) = this is a new path git has never seen before.
+
+**Nothing is actually deleted.** Git doesn't track "this file moved" as its own kind of event — it only compares two snapshots (the last commit, and your folder right now) and reports what's different. The content itself is sitting safely at the new path; check with `ls` if you want to be sure.
+
+Git *can* show this as a clean `renamed:` line instead, but only after you stage it:
+
+```bash
+git add -A
+git status
+```
+
+**Common mistake:** don't run a "discard changes" command (like `git checkout .` or `git restore .`) while you're seeing this `D` / `??` pair and think you're "cleaning up" or "undoing a mistake." That would tell git to bring back the "deleted" files from the last commit, while leaving your new, renamed files sitting there as extra untracked files — a mess, not a fix. If the `D`/`??` pair is from an intentional rename, just stage and commit it as usual.
 
 ---
 

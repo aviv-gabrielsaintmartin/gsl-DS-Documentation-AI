@@ -94,7 +94,7 @@
 | `Surface/Interactive` | Generic hover/pressed fill for any interactive element with no other semantic role | Elements with a dedicated state family (Status, Active, Selected) |
 | `Surface/Interactive/Selected` | The fill for an item in a persisted selected state (e.g. a chosen radio card, toggled filter) | Momentary active/highlight (→ `Active`) |
 
-**Flag — unconfirmed:** `Accent/Light/Default` and `Active/Default` currently resolve to the identical hex in both Light and Dark (`#FCE6E7` / `#2E0000`). Unclear whether these are meant to be the same token under two names, or should diverge — an agent currently can't tell which is "correct" for a new use case since both produce the same result. Needs confirmation before this ambiguity is resolved.
+**Open question:** `Accent/Light/Default` and `Active/Default` currently resolve to the identical hex in both Light and Dark (`#FCE6E7` / `#2E0000`). Unclear whether these are meant to be the same token under two names, or should diverge — an agent currently can't tell which is "correct" for a new use case since both produce the same result. Needs confirmation before this ambiguity is resolved.
 
 ### Decorative
 
@@ -104,6 +104,8 @@
 | `Surface/Decorative/Yellow` | Same use cases as `Red`, when a second decorative accent is needed (e.g. a two-tone rating display) | Same as `Red` |
 
 *Decorative tokens carry brand/visual accent, not state. If an element's colour is meant to communicate something (error, active, tier), that's a missed semantic case, not a Decorative one.*
+
+**Open question:** the boundary between `Decorative` and the semantic state families (`Status`, `Active`, `Score`) hasn't been stress-tested against a real ambiguous case yet — flagged in an earlier review pass as still too loosely defined, pending a concrete example that would pin it down.
 
 ### base
 

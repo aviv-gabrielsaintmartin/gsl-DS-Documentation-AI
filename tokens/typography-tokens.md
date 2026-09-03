@@ -16,7 +16,7 @@ Text styles for all GSL products, set in `Cera SL sys`. Sizes and line heights i
 
 Token choice here is **not** a fixed page hierarchy ladder (no H1→H5-style mapping holds up against real screens). Size is chosen per block, based on two things: how prominent an element needs to look next to its immediate neighbors, and how much room its own container has. There's no formula that derives one exact token from those two factors — for a component with no existing precedent elsewhere in the product, this is a judgment call, not a lookup.
 
-**Flag — unconfirmed:** see [typography-usage-audit.md](typography-usage-audit.md) for the real-screen findings this is based on, concrete precedent pairings for known components, and open questions (including whether Display is genuinely unused or just unsampled in a hero context). Kept separate since it's exploratory research, not a validated ruleset.
+**Open question:** see [typography-usage-audit.md](typography-usage-audit.md) for the real-screen findings this is based on, concrete precedent pairings for known components, and open questions (including whether Display is genuinely unused or just unsampled in a hero context). Kept separate since it's exploratory research, not a validated ruleset.
 
 ## Tokens
 

@@ -7,6 +7,8 @@ Values are already exported from Figma and trusted — no spot-check against Fig
 1. The file follows the shared template: `Overview` (which family/layer — omit if there's only one), `Semantic usage` (when to use each specific token), `Tokens` (exact values).
 2. `Semantic usage` is actually complete — every token has a "when to use" note, not just a bare value table.
 3. Anything flagged as open/unconfirmed in the file itself is still accurate, or gets escalated here.
+4. If `Semantic usage` guidance can't be confirmed from the file or a naming convention alone, sample real screens live via Figma before writing it — don't infer a hierarchy or rule from convention and present it as settled.
+5. If what comes out of that sampling is exploratory research rather than a confirmed rule, split it into a sibling `<category>-usage-audit.md` file — human-facing only, flagged not-AI-facing in its own header (see `typography-usage-audit.md` for the pattern, itself modelled on `colors-tokens/surface-border-combination-audit.md`) — so the main token doc stays short and AI-trustworthy.
 
 ## Status
 

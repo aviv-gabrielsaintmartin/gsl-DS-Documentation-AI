@@ -2,8 +2,6 @@ Elevation shadows, named by blur radius. All are drop shadows with no spread and
 
 ## Semantic usage
 
-Confirmed live against 8 real Figma components (Action Menu, Coachmark, Feedback message, Snackbar, Slider, Tooltip, Modal, Bottom Sheet) — a component set node (`Button`) failed to load twice and wasn't checked directly, but its "floating" variant is visible inside Action Menu.
-
 | Tier | When to use |
 | --- | --- |
 | `none` | Inline/flat content with no elevation: the non-floating Feedback message variant, a full-screen Modal (nothing behind it to separate from), and buttons in their default on-page style. |
@@ -12,9 +10,9 @@ Confirmed live against 8 real Figma components (Action Menu, Coachmark, Feedback
 | `16` | Used by: Snackbar, Tooltip, mobile Bottom Sheet. |
 | `24`, `32` | Not observed in any sampled component — unconfirmed, flagging rather than guessing. |
 
-**Open question — `8` vs `16`:** no confirmed rule distinguishes these two tiers. The floating Feedback message (`8`) and Snackbar (`16`) are both floating, temporary, similarly-sized notification-style components — nothing found in the components themselves (size, anchoring, persistence) explains why one gets less elevation than the other. A stacking-order rationale (e.g. Snackbar rendering visually above a Feedback message) is plausible but unverified — no screen was found showing both together, and no z-index documentation confirms a stacking order between them. Treat `8` vs `16` as "this is what each named component currently uses," not as a generalizable rule for new components.
+**Open question:** no confirmed rule distinguishes `8` from `16` — both are used by similarly-sized floating notification-style components (the floating Feedback message vs. Snackbar). Treat each as "this is what the named component currently uses," not a generalizable rule for new components. See [shadow-usage-audit.md](shadow-usage-audit.md) for the reasoning and what was ruled out.
 
-**Implementation note:** several components render their shadow via CSS `filter: drop-shadow(...)` rather than `box-shadow`. When rendered that way, the blur radius shown is exactly half the token's value (e.g. tier `16`'s `radius 16` renders as `8px` blur) — offset stays the same. This is a rendering-technique artifact of `drop-shadow`'s blur math, confirmed consistent across every `drop-shadow`-rendered instance checked; it is not a token drift and needs no fix.
+**Note:** several components render their shadow via CSS `filter: drop-shadow(...)` rather than `box-shadow`. When rendered that way, the blur radius shown is exactly half the token's value (e.g. tier `16`'s `radius 16` renders as `8px` blur) — offset stays the same. This is a rendering-technique artifact of `drop-shadow`'s blur math, confirmed consistent across every `drop-shadow`-rendered instance checked; it is not a token drift and needs no fix.
 
 ## Tokens
 

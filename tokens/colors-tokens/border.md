@@ -2,16 +2,16 @@
 
 *Which family to use. See Semantic usage below for the specific token within a family, and Tokens for exact values.*
 
-| Family | Use for | Don't use for |
-| --- | --- | --- |
-| `Border/base` | Standard strokes and outlines on components — the default starting point | Anything with a more specific match below |
-| `Border/Status` | Strokes on error, warning, success, or information states (validation, alerts) | General interactive borders (→ `Interactive`) |
-| `Border/Active` | The stroke on a currently active/selected element (e.g. a focused input, selected chip) | Focus ring (→ `Focus`) |
-| `Border/Focus` | Keyboard focus ring only — accessibility indicator | Active/selected states (→ `Active`) |
-| `Border/Interactive` | Generic hover/pressed stroke on an interactive element with no other semantic role | Elements with a dedicated border family (Active, Focus, Status) |
-| `Border/On-Primary / On-Secondary` | A stroke on an element that sits on top of a primary or secondary background | Strokes on default/light backgrounds |
-| `Border/Constant` | Fixed black or white stroke that must ignore brand and light/dark mode entirely | Anything that should re-theme |
-| `Border/Transparent` | A near-invisible stroke for subtle structural separation without a hard line | Visible borders needing colour contrast |
+| Family                             | Use for                                                                                 | Don't use for                                                   |
+| ---------------------------------- | --------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
+| `Border/base`                      | Standard strokes and outlines on components — the default starting point                | Anything with a more specific match below                       |
+| `Border/Status`                    | Strokes on error, warning, success, or information states (validation, alerts)          | General interactive borders (→ `Interactive`)                   |
+| `Border/Active`                    | The stroke on a currently active/selected element (e.g. a focused input, selected chip) | Focus ring (→ `Focus`)                                          |
+| `Border/Focus`                     | Keyboard focus ring only — accessibility indicator                                      | Active/selected states (→ `Active`)                             |
+| `Border/Interactive`               | Generic hover/pressed stroke on an interactive element with no other semantic role      | Elements with a dedicated border family (Active, Focus, Status) |
+| `Border/On-Primary / On-Secondary` | A stroke on an element that sits on top of a primary or secondary background            | Strokes on default/light backgrounds                            |
+| `Border/Constant`                  | Fixed black or white stroke that must ignore brand and light/dark mode entirely         | Anything that should re-theme                                   |
+| `Border/Transparent`               | A near-invisible stroke for subtle structural separation without a hard line            | Visible borders needing colour contrast                         |
 
 ## Semantic usage
 

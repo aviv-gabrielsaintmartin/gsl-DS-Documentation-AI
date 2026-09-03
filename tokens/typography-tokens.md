@@ -1,6 +1,26 @@
 Text styles for all GSL products, set in `Cera SL sys`. Sizes and line heights in px. Apply these as styles rather than setting font properties by hand.
 
-## Display (6)
+## Overview
+
+*Which family to use — see Semantic usage below for how the specific size within a family gets chosen.*
+
+| Family   | Use for                                                                                                                                                                 |
+| -------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Display  | Not observed in real product usage — see flag below before treating this as "hero-only"                                                                                 |
+| Headline | A small set of sizes (22/24/28) applied either to a section/module header or to a price-style primary number — see the mechanism below, not a fixed size-per-level rule |
+| Body     | The default text family — covers page/card titles, key facts, captions, and labels alike, sized by local emphasis rather than hierarchy depth                           |
+
+## Semantic usage
+
+*Bold vs Regular within any size is an emphasis choice, not a hierarchy signal. Underlined variants (Body only) mark inline interactive/link text within body copy — never apply underline decoration outside of a link.*
+
+Token choice here is **not** a fixed page hierarchy ladder (no H1→H5-style mapping holds up against real screens). Size is chosen per block, based on two things: how prominent an element needs to look next to its immediate neighbors, and how much room its own container has. There's no formula that derives one exact token from those two factors — for a component with no existing precedent elsewhere in the product, this is a judgment call, not a lookup.
+
+**Flag — unconfirmed:** see [typography-usage-audit.md](typography-usage-audit.md) for the real-screen findings this is based on, concrete precedent pairings for known components, and open questions (including whether Display is genuinely unused or just unsampled in a hero context). Kept separate since it's exploratory research, not a validated ruleset.
+
+## Tokens
+
+### Display (6)
 
 | Style | Size | Line height | Weight | Decoration |
 | --- | --- | --- | --- | --- |
@@ -11,7 +31,7 @@ Text styles for all GSL products, set in `Cera SL sys`. Sizes and line heights i
 | `display/36/bold` | 36 | 44 | Bold | — |
 | `display/36/regular` | 36 | 44 | Regular | — |
 
-## Headline (10)
+### Headline (10)
 
 | Style | Size | Line height | Weight | Decoration |
 | --- | --- | --- | --- | --- |
@@ -26,7 +46,7 @@ Text styles for all GSL products, set in `Cera SL sys`. Sizes and line heights i
 | `headline/20/bold` | 20 | 26 | Bold | — |
 | `headline/20/regular` | 20 | 26 | Regular | — |
 
-## Body (16)
+### Body (16)
 
 | Style | Size | Line height | Weight | Decoration |
 | --- | --- | --- | --- | --- |

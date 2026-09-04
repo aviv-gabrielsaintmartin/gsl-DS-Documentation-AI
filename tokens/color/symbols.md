@@ -1,3 +1,12 @@
+> **Design-authoring palette — not used in web code.**
+> No component, icon, or illustration in `gsl-core-web-design-system` references
+> a `Symbol/*` token. Icons paint via `fill: currentcolor` from a **Content**
+> token; illustrations ship as pre-rendered `.webp` raster with their colours
+> baked in at export. These tokens are applied in Figma when authoring an asset,
+> never at runtime. An AI agent must never emit one — see
+> [color-rules-ai.md](color-rules-ai.md) and
+> [color-usage-audit.md § C2](color-usage-audit.md).
+
 ## Overview
 
 *Which family to use. See Semantic usage below for the specific token within a family, and Tokens for exact values.*
